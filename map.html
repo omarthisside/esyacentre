@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+ 
+  </head>
+  <body>
+    <div id="map-wrapper">
+      <div id="map"></div>
+      <!-- Filter Container -->
+      <div class="filter-cont">
+        <div class="dropdown-cont">
+          <p>Governance:</p>
+          <select id="governance">
+            <option value="legalStatus">Legal Status</option>
+            <option value="classification">Classification</option>
+            <option value="licensing">Licensing</option>
+            <option value="corporateGovernance">Corporate Governance</option>
+            <option value="riskManagement">Risk Management</option>
+          </select>
+        </div>
+      </div>
+      <!-- Filter Container Ends -->
+
+      <!-- Legend -->
+      <div id="legend-cont" class="color-legend">
+        <ul>
+          <li class="green">
+            <div>
+              <img
+                src="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png"
+                width="20"
+                alt=""
+              />
+            </div>
+            <p id="green-legend">Legal</p>
+          </li>
+          <li class="orange">
+            <div>
+              <img
+                src="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png"
+                width="20"
+                alt=""
+              />
+            </div>
+            <p id="orange-legend">Partial Ban</p>
+          </li>
+          <li class="yellow" id="yellow-legend-cont">
+            <div>
+              <img
+                src="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png"
+                width="20"
+                alt=""
+              />
+            </div>
+            <p id="yellow-legend">Proposed</p>
+          </li>
+          <li class="red">
+            <div>
+              <img
+                src="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png"
+                width="20"
+                alt=""
+              />
+            </div>
+            <p id="red-legend">General Ban</p>
+          </li>
+        </ul>
+      </div>
+      <!-- Legend Ends -->
+
+      <!-- Popup -->
+      <div class="popup-wrapper popup-wrapper-hidden" id="contentPopup">
+        <div class="overlay"></div>
+        <div class="popup">
+          <div class="popup-header">
+            <h3>Country Name</h3>
+            <div class="close-icon">
+              <a href="" onclick="closePopup()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>  
+              </a>
+            </div>
+          </div>
+          <div class="popup-content">
+            <div class="oneContent">
+              <p class="column-heading">Legal Status&nbsp;<span  id="legalStatusHeading"></span></p>
+              <p id="legalStatusContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Classification&nbsp;<span  id="classificationHeading"></span></p>
+              <p id="classificationContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Licensing&nbsp;<span  id="licensingHeading"></span></p>
+              <p id="licensingContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Corporate&nbsp;<span  id="corporateGovernanceHeading"></span></p>
+              <p id="corporateGovernanceContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Risk Management&nbsp;<span  id="riskManagementHeading"></span></p>
+              <p id="riskManagementContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Taxation&nbsp;<span  id="taxationHeading"></span></p>
+              <p id="taxationContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Capital Controls&nbsp;<span  id="capitalControlsHeading"></span></p>
+              <p id="capitalControlsContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Aml/Cft&nbsp;<span  id="amlCftHeading"></span></p>
+              <p id="amlCftContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Grievance Redressal&nbsp;<span  id="grievanceRedressalHeading"></span></p>
+              <p id="grievanceRedressalContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Data Protection&nbsp;<span  id="dataProtectionHeading"></span></p>
+              <p id="dataProtectionContent" class="paragraph"></p>
+            </div>
+            <div class="oneContent">
+              <p class="column-heading">Advertising Regulations&nbsp;<span  id="advertisingRegulationsHeading"></span></p>
+              <p id="advertisingRegulationsContent" class="paragraph"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Popup Ends -->
+    </div>
+    <!-- Map Wrapper Ends -->
+
+    <script>
+      var map = L.map("map", { minZoom: 2, maxZoom: 5 }).setView([0, 0], 2);
+
+      map.setMaxBounds(
+        new L.LatLngBounds(new L.LatLng(-90, -180), new L.LatLng(90, 180))
+      );
+      map.invalidateSize();
+
+      var openStreetMap = L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        // {
+        //   attribution:
+        //     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        // }
+      ).addTo(map);
+
+      var blueIcon = new L.Icon({
+        iconUrl:
+          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png",
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+
+      var greenIcon = new L.Icon({
+        iconUrl:
+          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png",
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+
+      var yellowIcon = new L.Icon({
+        iconUrl:
+          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png",
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+
+      var redIcon = new L.Icon({
+        iconUrl:
+          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+
+      var orangeIcon = new L.Icon({
+        iconUrl:
+          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png",
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+    </script>
+
+    <script>
+      var markers = [];
+
+      // Countries Data
+      var countryData = [
+        {
+          countryName: "Australia",
+          legalStatus: ["Legal","Financial institutions are banned from transacting in digital assets that are not regulated by the Central Bank. However, this is not a complete ban as domestic cryptocurrency exchanges are still operational."],
+          classification: ["Yes","The Central Bank defined crypto assets as a digital representation of value or rights that are transferred and stored electronically. They are not legal tender. Further, cryptocurrencies cannot be classified as securities as they are not registered pursuant to the Securities and Exchange Commission."],
+          licensing: ["Yes","There is currently no licensing regime for non-financial institutions offering crypto-related services. A license may be required if the currencies offered qualify as securities"],
+          corporateGovernance: ["Partial","DASPs seeking an optional license from the AMF must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE"],
+          riskManagement: ["Partial","DASPs seeking an optional licenses must fulfil miniquity and insurance requirements that are similar to those applicable to traditional financial players."],
+          taxation:["Yes","Capital gains on digital assets that are realised as a part of individuals' private asset management are taxable at a flat rate of 30%. If trade in digital assets happens on a regular basis by professional investors, gains may be subject to the progressive income tax rate in the category of non-industrial and commercial profits. ICOs are subject to VAT only when the issued tokens are used by their holders."],
+          capitalControls:["No","France does not have capital controls."],
+          amlCft:["Yes","The Financial Action Task Force issued recomendations which directed virtual asset service providers to be regulated for AML/CFT purposes, and licensed or registered, and subject to effective systems for monitoring and ensuring compliance.<br> Yes, the FATF travel rules are applicable. Further, according to Rule 16, Virtual Asset Service Providers must obtain required originator information and required beneficiary information on virtual asset transfers, submit this information to the beneficiary VASP or other appropriate authorities."],
+          grievanceRedressal:["Partial - General Legislation", "The ACPR and the AMF are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. The AMF also exercises its authority to take legal action and block access to fraudulent sites."],
+          dataProtection:["Partial - General Legislation","The French Data Protection Law is applicable to any kind of data processing that is undertaken by an establishment of a controller or processor in French territory. This can also apply to CASPs. The AMF has released cybersecurity system requirements for digital assets service providers."],
+          advertisingRegulations:["No","The French Data Protection Law is applicable to any kind of data processing that is undertaken by an establishment of a controller or processor in French territory. This can also apply to CASPs. The AMF has released cybersecurity system requirements for digital assets service providers."],
+          lat: "-25.2744",
+          lang: "133.7751",
+        },
+        // {
+        //   Argentina: {
+        //     legalStatus: "partialBan",
+        //     classification: "no",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "38.4161",
+        //     lang: "63.6167",
+        //   },
+        // },
+        // {
+        //   Brazil: {
+        //     legalStatus: "legal",
+        //     classification: "proposed",
+        //     licensing: "proposed",
+        //     corporateGovernance: "proposed",
+        //     riskManagement: "no",
+        //     lat: "-14.2350",
+        //     lang: "-51.9253",
+        //   },
+        // },
+        // {
+        //   Canada: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "partial",
+        //     riskManagement: "partial",
+        //     lat: "56.1304",
+        //     lang: "-106.3468",
+        //   },
+        // },
+        // {
+        //   China: {
+        //     legalStatus: "ban",
+        //     classification: "no",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "35.8617",
+        //     lang: "104.1954",
+        //   },
+        // },
+        // {
+        //   France: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "yes",
+        //     riskManagement: "yes",
+        //     lat: "46.2276",
+        //     lang: "2.2137",
+        //   },
+        // },
+        // {
+        //   Germany: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "yes",
+        //     riskManagement: "yes",
+        //     lat: "51.1657",
+        //     lang: "10.4515",
+        //   },
+        // },
+        // {
+        //   India: {
+        //     legalStatus: "legal",
+        //     classification: "no",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "20.5937",
+        //     lang: "78.9629",
+        //   },
+        // },
+        // {
+        //   Indonesia: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "yes",
+        //     riskManagement: "yes",
+        //     lat: "-0.7893",
+        //     lang: "113.9213",
+        //   },
+        // },
+        // {
+        //   Italy: {
+        //     legalStatus: "legal",
+        //     classification: "no",
+        //     licensing: "yes",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "41.8719",
+        //     lang: "12.5674",
+        //   },
+        // },
+        // {
+        //   Japan: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "no",
+        //     riskManagement: "yes",
+        //     lat: "36.2048",
+        //     lang: "138.2529",
+        //   },
+        // },
+        // {
+        //   Mexico: {
+        //     legalStatus: "partialBan",
+        //     classification: "yes",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "23.6260",
+        //     lang: "-102.5375",
+        //   },
+        // },
+        // {
+        //   Russia: {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "yes",
+        //     riskManagement: "no",
+        //     lat: "61.5240",
+        //     lang: "105.3188",
+        //   },
+        // },
+        // {
+        //   "Saudia Arabia": {
+        //     legalStatus: "ban",
+        //     classification: "no",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "24.774265",
+        //     lang: "46.738586",
+        //   },
+        // },
+        // {
+        //   "South Africa": {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "yes",
+        //     riskManagement: "yes",
+        //     lat: "-30.5595",
+        //     lang: "22.9375",
+        //   },
+        // },
+        // {
+        //   "South Korea": {
+        //     legalStatus: "legal",
+        //     classification: "no",
+        //     licensing: "yes",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "35.9078",
+        //     lang: "127.7669",
+        //   },
+        // },
+        // {
+        //   Turkey: {
+        //     legalStatus: "legal",
+        //     classification: "no",
+        //     licensing: "no",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "38.9637",
+        //     lang: "35.2433",
+        //   },
+        // },
+        // {
+        //   "United Kingdom": {
+        //     legalStatus: "legal",
+        //     classification: "yes",
+        //     licensing: "yes",
+        //     corporateGovernance: "partial",
+        //     riskManagement: "partial",
+        //     lat: "55.3781",
+        //     lang: "-3.4360",
+        //   },
+        // },
+        // {
+        //   "United States": {
+        //     legalStatus: "legal",
+        //     classification: "no",
+        //     licensing: "yes",
+        //     corporateGovernance: "no",
+        //     riskManagement: "no",
+        //     lat: "37.0902",
+        //     lang: "-95.7129",
+        //   },
+        // },
+        // {
+        //   "European Union": {
+        //     legalStatus: "legal",
+        //     classification: "proposed",
+        //     licensing: "proposed",
+        //     corporateGovernance: "proposed",
+        //     riskManagement: "proposed",
+        //     lat: "50.5039",
+        //     lang: "4.4699",
+        //   },
+        // },
+      ];
+
+      // Remove Markers Function
+      function removeMarkers() {
+        for (let i = 0; i < markers.length; i++) {
+          map.removeLayer(markers[i]);
+        }
+      }
+
+      // Popup
+      function openPopup(countryName){
+
+        var popup = document.getElementById('contentPopup')
+        var legalStatusHeading =  document.getElementById('legalStatusHeading')
+        var legalStatusContent =  document.getElementById('legalStatusContent')
+        var classificationHeading =  document.getElementById('classificationHeading')
+        var classificationContent =  document.getElementById('classificationContent')
+        var licensingHeading =  document.getElementById('licensingHeading')
+        var licensingContent =  document.getElementById('licensingContent')
+        var corporateGovernanceHeading =  document.getElementById('corporateGovernanceHeading')
+        var corporateGovernanceContent =  document.getElementById('corporateGovernanceContent')
+        var riskManagementHeading =  document.getElementById('riskManagementHeading')
+        var riskManagementContent =  document.getElementById('riskManagementContent')
+        var taxationHeading =  document.getElementById('taxationHeading')
+        var taxationContent =  document.getElementById('taxationContent')
+        var capitalControlsHeading =  document.getElementById('capitalControlsHeading')
+        var capitalControlsContent =  document.getElementById('capitalControlsContent')
+        var amlCftHeading =  document.getElementById('amlCftHeading')
+        var amlCftContent =  document.getElementById('amlCftContent')
+        var grivanceRedressalHeading =  document.getElementById('grivanceRedressalHeading')
+        var grivanceRedressalContent =  document.getElementById('grivanceRedressalContent')
+        var dataProtectionHeading =  document.getElementById('dataProtectionHeading')
+        var dataProtectionContent =  document.getElementById('dataProtectionContent')
+        var advertisingRegulationsHeading =  document.getElementById('advertisingRegulationsHeading')
+        var advertisingRegulationsContent =  document.getElementById('advertisingRegulationsContent')
+
+        updateContent();
+
+        function updateContent(){
+          popup.classList.remove ('popup-wrapper-hidden');
+          console.log(
+            popup.classList
+          )
+          legalStatusHeading.innerHTML = countryName.legalStatus[0];
+          legalStatusContent.innerHTML = countryName.legalStatus[1];
+          classificationHeading.innerHTML = countryName.classification[0];
+          classificationContent.innerHTML = countryName.classification[1];
+          licensingHeading.innerHTML = countryName.licensing[0];
+          licensingContent.innerHTML = countryName.licensing[1];
+          corporateGovernanceHeading.innerHTML = countryName.corporateGovernance[0];
+          corporateGovernanceContent.innerHTML = countryName.corporateGovernance[1];
+          riskManagementHeading.innerHTML = countryName.riskManagement[0];
+          riskManagementContent.innerHTML = countryName.riskManagement[1];
+          taxationHeading.innerHTML = countryName.taxation[0];
+          taxationContent.innerHTML = countryName.taxation[1];
+          capitalControlsHeading.innerHTML = countryName.capitalControls[0];
+          capitalControlsContent.innerHTML = countryName.capitalControls[1];
+          amlCftHeading.innerHTML = countryName.amlCft[0];
+          amlCftContent.innerHTML = countryName.amlCft[1];
+          grievanceRedressalHeading.innerHTML = countryName.grievanceRedressal[0];
+          grievanceRedressalContent.innerHTML = countryName.grievanceRedressal[1];
+          dataProtectionHeading.innerHTML = countryName.dataProtection[0];
+          dataProtectionContent.innerHTML = countryName.dataProtection[1];
+          advertisingRegulationsHeading.innerHTML = countryName.advertisingRegulations[0];
+          advertisingRegulationsContent.innerHTML = countryName.advertisingRegulations[1];
+
+        }
+
+        function closePopup(){
+          popup.classList.add('popup-wrapper-hidden');
+        }
+
+
+      }
+
+      // Legend
+      function displayLegend(selectedData) {
+        var legendCont = document.getElementById("legend-cont");
+        var yellowLegendCont = document.getElementById("yellow-legend-cont");
+        var greenLegend = document.getElementById("green-legend");
+        var orangeLegend = document.getElementById("orange-legend");
+        var yellowLegend = document.getElementById("yellow-legend");
+        var redLegend = document.getElementById("red-legend");
+
+        legendCont.style.display = "block";
+
+        if (selectedData == "legalStatus") {
+          greenLegend.innerHTML = "Legal";
+          orangeLegend.innerHTML = "Partial Ban";
+          redLegend.innerHTML = "General Ban";
+          yellowLegend.innerHTML = " ";
+          yellowLegendCont.style.display = "none";
+        } else {
+          greenLegend.innerHTML = "Yes";
+          orangeLegend.innerHTML = "Partial";
+          redLegend.innerHTML = "No";
+          yellowLegend.innerHTML = "Proposed";
+          yellowLegendCont.style.display = "flex";
+        }
+      }
+
+      document
+        .getElementById("governance")
+        .addEventListener("change", function () {
+          removeMarkers();
+          selectedValue = this.value;
+          displayLegend(selectedValue);
+          console.log(selectedValue);
+          for (let i = 0; i < countryData.length; i++) {
+              if (
+                countryData[i][selectedValue][0]== "Legal" ||
+                countryData[i][selectedValue][0] == "Yes"
+              ) {
+                markers.push(
+                  L.marker(
+                    [countryData[i].lat, countryData[i].lang],
+                    { icon: greenIcon }
+                  )
+                    .addTo(map)
+                    .bindTooltip(`${countryData[i].countryName}`).on('click', function(){
+                      openPopup(countryData[i])
+                      // console.log(countryData[i][country][selectedValue][0])
+                    }),
+                );
+              } else if (
+                countryData[i][country][selectedValue] == "partialBan" ||
+                countryData[i][country][selectedValue] == "partial"
+              ) {
+                markers.push(
+                  L.marker(
+                    [countryData[i][country].lat, countryData[i][country].lang],
+                    { icon: orangeIcon }
+                  )
+                    .addTo(map)
+                    .bindTooltip(`${country}`)
+                );
+              } else if (
+                countryData[i][country][selectedValue] == "no" ||
+                countryData[i][country][selectedValue] == "ban"
+              ) {
+                markers.push(
+                  L.marker(
+                    [countryData[i][country].lat, countryData[i][country].lang],
+                    { icon: redIcon }
+                  )
+                    .addTo(map)
+                    .bindTooltip(`${country}`)
+                );
+              } else if (countryData[i][country][selectedValue] == "proposed") {
+                markers.push(
+                  L.marker(
+                    [countryData[i][country].lat, countryData[i][country].lang],
+                    { icon: yellowIcon }
+                  )
+                    .addTo(map)
+                    .bindTooltip(`${country}`)
+                );
+              }
+            }
+          }
+        );
+
+      var select = document.getElementById("governance");
+      // select.value="legalStatus";
+      var event = new Event("change");
+      select.dispatchEvent(event);
+    </script>
+  </body>
+</html>
