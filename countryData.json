@@ -1,0 +1,18 @@
+[  
+    {
+      "countryName": "Australia",
+      "legalStatus": ["Legal","Financial institutions are banned from transacting in digital assets that are not regulated by the Central Bank. However, this is not a complete ban as domestic cryptocurrency exchanges are still operational."],
+      "classification": ["Yes","The Central Bank defined crypto assets as a digital representation of value or rights that are transferred and stored electronically. They are not legal tender. Further, cryptocurrencies cannot be classified as securities as they are not registered pursuant to the Securities and Exchange Commission."],
+      "licensing": ["Yes","There is currently no licensing regime for non-financial institutions offering crypto-related services. A license may be required if the currencies offered qualify as securities"],
+      "corporateGovernance": ["Partial","DASPs seeking an optional license from the AMF must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE"],
+      "riskManagement": ["Partial","DASPs seeking an optional licenses must fulfil miniquity and insurance requirements that are similar to those applicable to traditional financial players."],
+      "taxation":["Yes","Capital gains on digital assets that are realised as a part of individuals' private asset management are taxable at a flat rate of 30%. If trade in digital assets happens on a regular basis by professional investors, gains may be subject to the progressive income tax rate in the category of non-industrial and commercial profits. ICOs are subject to VAT only when the issued tokens are used by their holders."],
+      "capitalControls":["No","France does not have capital controls."],
+      "amlCft":["Yes","The Financial Action Task Force issued recomendations which directed virtual asset service providers to be regulated for AML/CFT purposes, and licensed or registered, and subject to effective systems for monitoring and ensuring compliance.<br> Yes, the FATF travel rules are applicable. Further, according to Rule 16, Virtual Asset Service Providers must obtain required originator information and required beneficiary information on virtual asset transfers, submit this information to the beneficiary VASP or other appropriate authorities."],
+      "grievanceRedressal":["Partial - General Legislation", "The ACPR and the AMF are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. The AMF also exercises its authority to take legal action and block access to fraudulent sites."],
+      "dataProtection":["Partial - General Legislation","The French Data Protection Law is applicable to any kind of data processing that is undertaken by an establishment of a controller or processor in French territory. This can also apply to CASPs. The AMF has released cybersecurity system requirements for digital assets service providers."],
+      "advertisingRegulations":["No","The French Data Protection Law is applicable to any kind of data processing that is undertaken by an establishment of a controller or processor in French territory. This can also apply to CASPs. The AMF has released cybersecurity system requirements for digital assets service providers."],
+      "lat": "-25.2744",
+      "lang": "133.7751"
+    }
+ ]
