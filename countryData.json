@@ -30,5 +30,21 @@
       "advertisingRegulations":["No","Misleading or deceptive conduct by entities issuing all kinds of crypto assets, including ones that are not classified as financial products."],
       "lat": "-25.2744",
       "lang": "133.7751"
+    },
+    {
+      "countryName": "Brazil",
+      "legalStatus": ["Legal","Crypto assets are legal in Brazil but cannot be used for payments. The Parliament has recently passed a law that specifically defines virtual currencies and creates a comprehensive legal framework"],
+      "classification":["Proposed","No legislation or regulations currently classify cryptocurrencies. They are generally regulated as goods or assets, but the Capital Market Authorities has investigated some crypto projects as they resembled securities. <br/>The proposed legislation defines virtual currency and recognises different classifications, including security tokens and utility tokens.  "],
+      "licensing": ["Proposed","There are currently no licensing requirements for Brazilian crypto-asset service providers. However, CASPs dealing with currencies which are security tokens must register and seek approval from the Capital Markets Authority. <br/>Under the proposed legislation, virtual asset service providers must obtain prior authorisation from an authorised body."],
+      "corporateGovernance": ["Proposed","The forthcoming Bill prescribes observance of the principles of good governance as an obligation for VASPs but does not define these principles"],
+      "riskManagement": ["No","No capital reserver requirement or risk management practices are prescribed currently. Previous version of the past Bill required VASPs to separate assets, but this provision was omitted in the most recent draft"],
+      "taxation":["Yes","The Brazilian Internal Revenue Service has clarified, through rulings and Q&As, that gains from virtual assets are subject to capital gains tax, which ranges from 15% to 22.5%."],
+      "capitalControls":["No","While Brazil does have a capital control regime where transactions involving cross border transfers must be conducted through an authorised intermediary, these requirements have not been extended to virtual assets."],
+      "amlCft":["Proposed","Brazil's existing AML/CFT regulations have not been extended to cryptoassets, even though exchanges and other asset providers have reported suspicious transactions. <br/>The proposed law includes VASPs in the list of institutions required to report data to the Council of Financial Activities Control"],
+      "grievanceRedressal":["Partial - General Legislation", "Brazil has a general consumer protection code, which will be extended to CASPs once the Bill receives Presidential assent"],
+      "dataProtection":["Partial - General Legislation","CASPs will likely be data controllers under the Brazilian General Data Protection Law. However, there are no specific requirements for such entities"],
+      "advertisingRegulations":["Yes","Regulation on crypto-related ads do not exist currently and have not been proposed under the new law."],
+      "lat": "-14.2350",
+      "lang": "-51.9253"
     }
  ]

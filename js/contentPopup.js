@@ -1,7 +1,16 @@
-function openPopup(countryName) {
-var  popupCountryName = document.getElementById("popupCountry")
 
-    var popup = document.getElementById("contentPopup");
+var popup = document.getElementById("contentPopup");
+
+var closeButton = document.getElementById("closeIcon");
+
+closeButton.addEventListener("click", () =>{
+  popup.classList.add("popup-wrapper-hidden");
+} )
+
+
+
+function openPopup(countryName) {
+    var  popupCountryName = document.getElementById("popupCountry")
     var legalStatusHeading = document.getElementById("legalStatusHeading");
     var legalStatusContent = document.getElementById("legalStatusContent");
     var classificationHeading = document.getElementById(
@@ -57,7 +66,6 @@ var  popupCountryName = document.getElementById("popupCountry")
 
     function updateContent() {
       popup.classList.remove("popup-wrapper-hidden");
-      console.log(popup.classList);
       popupCountryName.innerHTML = countryName.countryName;
       legalStatusHeading.innerHTML = countryName.legalStatus[0];
       legalStatusContent.innerHTML = countryName.legalStatus[1];
@@ -89,7 +97,4 @@ var  popupCountryName = document.getElementById("popupCountry")
         countryName.advertisingRegulations[1];
     }
 
-    function closePopup() {
-      popup.classList.add("popup-wrapper-hidden");
-    }
   }
