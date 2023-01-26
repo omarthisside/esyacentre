@@ -1,3 +1,5 @@
+
+
 setTimeout(()=>{
   var selectedValue = "legalStatus";
   updateMarkers(selectedValue)
