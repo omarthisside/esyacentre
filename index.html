@@ -15,14 +15,15 @@
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""
     ></script>
-
+    
+   
   </head>
   <body>
     <div id="map-wrapper">
       <div id="map"></div>
       <!-- Filter Container -->
       <div class="filter-cont">
-        <div class="dropdown-cont">
+        <!-- <div class="dropdown-cont">
           <p>Governance:</p>
           <select id="governance">
             <option value="legalStatus">Legal Status</option>
@@ -31,6 +32,46 @@
             <option value="corporateGovernance">Corporate Governance</option>
             <option value="riskManagement">Risk Management</option>
           </select>
+        </div> -->
+
+        <div class="mega-menu">
+          <ul class="dropdown">
+            <li>
+              <a class="">Menu</a>
+              <ul>
+                <li>
+                  <a>Governance</a>
+                  <ul>
+                    <li>
+                      <a onclick="updateMarkers('legalStatus')"
+                        >Legal Status
+                      </a>
+                    </li>
+                    <li><a onclick="updateMarkers('classification')">Classification </a></li>
+                    <li><a onclick="updateMarkers('licensing')">Licensing </a></li>
+                    <li><a onclick="updateMarkers('corporateGovernance')">Corporate Governance </a></li>
+                    <li><a onclick="updateMarkers('riskManagement')">Risk Management </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Fiscal and Monetary</a>
+                  <ul>
+                    <li><a onclick="updateMarkers('taxation')">Taxation </a></li>
+                    <li><a onclick="updateMarkers('capitalControls')">Capital Controls </a></li>
+                    <li><a onclick="updateMarkers('amlCft')">AML/CFT </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Consumer Protection </a>
+                  <ul>
+                    <li><a onclick="updateMarkers('grievanceRedressal')">Grievance Redressal </a></li>
+                    <li><a onclick="updateMarkers('dataProtection')">Data Protection/Information Security </a></li>
+                    <li><a onclick="updateMarkers('advertisingRegulations')">Advertising Regulations </a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
       <!-- Filter Container Ends -->
@@ -87,7 +128,7 @@
         <div class="overlay"></div>
         <div class="popup">
           <div class="popup-header">
-            <h3>Country Name</h3>
+            <h3 id="popupCountry">Country Name</h3>
             <div class="close-icon">
               <a href="" onclick="closePopup()">
                 <svg
@@ -183,264 +224,10 @@
       <!-- Popup Ends -->
     </div>
     <!-- Map Wrapper Ends -->
-
-    <script>
-      var map = L.map("map", { minZoom: 2, maxZoom: 5 }).setView([0, 0], 2);
-
-      map.setMaxBounds(
-        new L.LatLngBounds(new L.LatLng(-90, -180), new L.LatLng(90, 180))
-      );
-      map.invalidateSize();
-
-      var openStreetMap = L.tileLayer(
-        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        // {
-        //   attribution:
-        //     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        // }
-      ).addTo(map);
-
-      var blueIcon = new L.Icon({
-        iconUrl:
-          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png",
-        shadowUrl:
-          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41],
-      });
-
-      var greenIcon = new L.Icon({
-        iconUrl:
-          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png",
-        shadowUrl:
-          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41],
-      });
-
-      var yellowIcon = new L.Icon({
-        iconUrl:
-          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png",
-        shadowUrl:
-          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41],
-      });
-
-      var redIcon = new L.Icon({
-        iconUrl:
-          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
-        shadowUrl:
-          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41],
-      });
-
-      var orangeIcon = new L.Icon({
-        iconUrl:
-          "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png",
-        shadowUrl:
-          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41],
-      });
-    </script>
-
-    <script>
-      async function getData() {
-        var d = await fetch("./countryData.json");
-        var dJson = await d.json();
-        return dJson;
-      }
-      window.addEventListener("load", async function (event) {
-        var countryData = await getData();
-        document
-          .getElementById("governance")
-          .addEventListener("change", function () {
-            removeMarkers();
-            selectedValue = this.value;
-            displayLegend(selectedValue);
-            console.log(selectedValue);
-            for (let i = 0; i < countryData.length; i++) {
-              var icon;
-              if (
-                countryData[i][selectedValue][0] == "Legal" ||
-                countryData[i][selectedValue][0] == "Yes"
-              ) {
-                icon = greenIcon;
-
-              } else if (
-                countryData[i][selectedValue][0] == "partialBan" ||
-                countryData[i][selectedValue][0] == "Partial" ) 
-            {
-                icon = orangeIcon
-              } else if (
-                countryData[i][selectedValue][0] == "No" ||
-                countryData[i][selectedValue][0] == "Ban"
-              ) {
-                  icon = redIcon
-              } else if (countryData[i][selectedValue] == "Proposed") {
-                icon = yellowIcon
-              }
-              markers.push(
-                  L.marker([countryData[i].lat, countryData[i].lang], {
-                    icon: icon,
-                  })
-                    .addTo(map)
-                    .bindTooltip(`${countryData[i].countryName}`)
-                    .on("click", function () {
-                      openPopup(countryData[i]);
-                    })
-                );
-            }
-          });
-
-        var select = document.getElementById("governance");
-        select.value = "legalStatus";
-        var event = new Event("change");
-        select.dispatchEvent(event);
-      });
-
-      var markers = [];
-
-      // var countryData =
-
-      // Remove Markers Function
-      function removeMarkers() {
-        for (let i = 0; i < markers.length; i++) {
-          map.removeLayer(markers[i]);
-        }
-      }
-
-      // Popup
-      function openPopup(countryName) {
-        var popup = document.getElementById("contentPopup");
-        var legalStatusHeading = document.getElementById("legalStatusHeading");
-        var legalStatusContent = document.getElementById("legalStatusContent");
-        var classificationHeading = document.getElementById(
-          "classificationHeading"
-        );
-        var classificationContent = document.getElementById(
-          "classificationContent"
-        );
-        var licensingHeading = document.getElementById("licensingHeading");
-        var licensingContent = document.getElementById("licensingContent");
-        var corporateGovernanceHeading = document.getElementById(
-          "corporateGovernanceHeading"
-        );
-        var corporateGovernanceContent = document.getElementById(
-          "corporateGovernanceContent"
-        );
-        var riskManagementHeading = document.getElementById(
-          "riskManagementHeading"
-        );
-        var riskManagementContent = document.getElementById(
-          "riskManagementContent"
-        );
-        var taxationHeading = document.getElementById("taxationHeading");
-        var taxationContent = document.getElementById("taxationContent");
-        var capitalControlsHeading = document.getElementById(
-          "capitalControlsHeading"
-        );
-        var capitalControlsContent = document.getElementById(
-          "capitalControlsContent"
-        );
-        var amlCftHeading = document.getElementById("amlCftHeading");
-        var amlCftContent = document.getElementById("amlCftContent");
-        var grivanceRedressalHeading = document.getElementById(
-          "grivanceRedressalHeading"
-        );
-        var grivanceRedressalContent = document.getElementById(
-          "grivanceRedressalContent"
-        );
-        var dataProtectionHeading = document.getElementById(
-          "dataProtectionHeading"
-        );
-        var dataProtectionContent = document.getElementById(
-          "dataProtectionContent"
-        );
-        var advertisingRegulationsHeading = document.getElementById(
-          "advertisingRegulationsHeading"
-        );
-        var advertisingRegulationsContent = document.getElementById(
-          "advertisingRegulationsContent"
-        );
-
-        updateContent();
-
-        function updateContent() {
-          popup.classList.remove("popup-wrapper-hidden");
-          console.log(popup.classList);
-          legalStatusHeading.innerHTML = countryName.legalStatus[0];
-          legalStatusContent.innerHTML = countryName.legalStatus[1];
-          classificationHeading.innerHTML = countryName.classification[0];
-          classificationContent.innerHTML = countryName.classification[1];
-          licensingHeading.innerHTML = countryName.licensing[0];
-          licensingContent.innerHTML = countryName.licensing[1];
-          corporateGovernanceHeading.innerHTML =
-            countryName.corporateGovernance[0];
-          corporateGovernanceContent.innerHTML =
-            countryName.corporateGovernance[1];
-          riskManagementHeading.innerHTML = countryName.riskManagement[0];
-          riskManagementContent.innerHTML = countryName.riskManagement[1];
-          taxationHeading.innerHTML = countryName.taxation[0];
-          taxationContent.innerHTML = countryName.taxation[1];
-          capitalControlsHeading.innerHTML = countryName.capitalControls[0];
-          capitalControlsContent.innerHTML = countryName.capitalControls[1];
-          amlCftHeading.innerHTML = countryName.amlCft[0];
-          amlCftContent.innerHTML = countryName.amlCft[1];
-          grievanceRedressalHeading.innerHTML =
-            countryName.grievanceRedressal[0];
-          grievanceRedressalContent.innerHTML =
-            countryName.grievanceRedressal[1];
-          dataProtectionHeading.innerHTML = countryName.dataProtection[0];
-          dataProtectionContent.innerHTML = countryName.dataProtection[1];
-          advertisingRegulationsHeading.innerHTML =
-            countryName.advertisingRegulations[0];
-          advertisingRegulationsContent.innerHTML =
-            countryName.advertisingRegulations[1];
-        }
-
-        function closePopup() {
-          popup.classList.add("popup-wrapper-hidden");
-        }
-      }
-
-      // Legend
-      function displayLegend(selectedData) {
-        var legendCont = document.getElementById("legend-cont");
-        var yellowLegendCont = document.getElementById("yellow-legend-cont");
-        var greenLegend = document.getElementById("green-legend");
-        var orangeLegend = document.getElementById("orange-legend");
-        var yellowLegend = document.getElementById("yellow-legend");
-        var redLegend = document.getElementById("red-legend");
-
-        legendCont.style.display = "block";
-
-        if (selectedData == "legalStatus") {
-          greenLegend.innerHTML = "Legal";
-          orangeLegend.innerHTML = "Partial Ban";
-          redLegend.innerHTML = "General Ban";
-          yellowLegend.innerHTML = " ";
-          yellowLegendCont.style.display = "none";
-        } else {
-          greenLegend.innerHTML = "Yes";
-          orangeLegend.innerHTML = "Partial";
-          redLegend.innerHTML = "No";
-          yellowLegend.innerHTML = "Proposed";
-          yellowLegendCont.style.display = "flex";
-        }
-      }
-    </script>
+    
+    <script src="./js/markers.js"></script>
+    <script src="./js/updateMarkers.js"></script>
+    <script src="./js/contentPopup.js"></script>
+    <script src="./js/updateLegend.js"></script>
   </body>
 </html>
