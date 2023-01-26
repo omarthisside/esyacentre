@@ -271,4 +271,16 @@
 .menu-toggle svg {
   width: 16px;
   height: 16px;
+}
+
+@media (max-width: 426px) {
+  li, a {
+    font-size: 12px !important;
+  }
+  .color-legend p {
+    font-size: 14px !important;
+  }
+  .legend-header p {
+    font-size: 10px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -241,7 +241,7 @@
     },
     {
       "countryName": "Saudia Arabia",
-      "legalStatus": ["Legal","The Saudia Arabia Monetary Authority has banned financial institutions from processing transactions involving cryptocurrencies. Government agencies have also reiterated the potential dangers of cryptocurrency and discouraged investment in them. At the same time, there is no penalty for holding cryptocurrency by retail users. Some exchanges operate in Saudia Arabia"],
+      "legalStatus": ["General Ban","The Saudia Arabia Monetary Authority has banned financial institutions from processing transactions involving cryptocurrencies. Government agencies have also reiterated the potential dangers of cryptocurrency and discouraged investment in them. At the same time, there is no penalty for holding cryptocurrency by retail users. Some exchanges operate in Saudia Arabia"],
       "classification":["No","Cryptocurrencies are not classified under any legislation or regulation."],
       "licensing": ["No","Financial institutions are not allowed to provide any crypto-related services. There is no licensing regime for crypto exchanges."],
       "corporateGovernance": ["No","There are no specific corporate governance requirements applicable to of crypto-related services"],
