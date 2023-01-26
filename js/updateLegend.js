@@ -1,5 +1,6 @@
  // Legend
  function displayLegend(selectedData) {
+    var selectedKey = document.getElementById("selectedKey");
     var legendCont = document.getElementById("legend-cont");
     var yellowLegendCont = document.getElementById("yellow-legend-cont");
     var greenLegend = document.getElementById("green-legend");
@@ -8,6 +9,8 @@
     var redLegend = document.getElementById("red-legend");
 
     legendCont.style.display = "block";
+
+    // selectedKey.innerHTML = selectedData;
 
     if (selectedData == "legalStatus") {
       greenLegend.innerHTML = "Legal";

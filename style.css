@@ -50,7 +50,19 @@
   bottom: 10px;
   left: 10px;
   background: white;
-  padding: 10px 20px;
+}
+.color-legend li {
+  padding: 0px 12px;
+}
+.color-legend .legend-header {
+  width: 140px;
+  background: #011f5b;
+  padding: 10px 8px;
+}
+.color-legend .legend-header p {
+  margin: 0px !important;
+  color: white;
+  font-size: 12px;
 }
 .color-legend ul {
   padding: 0;
@@ -61,11 +73,9 @@
   display: flex;
   margin: 10px 5px;
   align-items: center;
-  width: 120px;
 }
 .color-legend li p {
-  margin: 0;
-  margin-top: 5px;
+  margin: 0px !important;
   font-size: 16px;
 }
 .color-legend div img {
@@ -88,7 +98,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 3;
+  z-index: 10;
 }
 .popup-wrapper .overlay {
   position: absolute;
@@ -141,6 +151,9 @@
 .popup-wrapper .popup-header {
   padding: 40px 10px;
 }
+.popup-wrapper .popup-header .close-icon {
+  cursor: pointer;
+}
 .popup-wrapper .popup-header .close-icon svg {
   height: 24px;
   width: 24px;
@@ -188,12 +201,16 @@
 .mega-menu .dropdown li {
   position: relative;
 }
+.mega-menu .first-menu {
+  margin-top: 4px;
+}
 .mega-menu .dropdown li a {
   color: black;
   text-align: center;
   text-decoration: none;
   display: block;
   padding: 10px;
+  cursor: pointer;
 }
 .mega-menu .dropdown li ul {
   position: absolute;
@@ -228,4 +245,24 @@
 }
 .mega-menu ul li:hover > ul {
   display: block;
+}
+
+.menu-toggle, .color-legend {
+  box-shadow: 0px 8px 10px -8px rgba(0, 0, 0, 0.5);
+  border: 2px solid #011f5b;
+  color: #011f5b;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-toggle p {
+  margin: 0px !important;
+}
+.menu-toggle svg {
+  width: 16px;
+  height: 16px;
 }/*# sourceMappingURL=style.css.map */
