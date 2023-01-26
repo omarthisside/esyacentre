@@ -11,8 +11,8 @@ closeButton.addEventListener("click", () =>{
 
 function openPopup(countryName) {
     var  popupCountryName = document.getElementById("popupCountry")
-    var legalStatusHeading = document.getElementById("legalStatusHeading");
-    var legalStatusContent = document.getElementById("legalStatusContent");
+    varlegalStatusHeading = document.getElementById("legalStatusHeading");
+    varlegalStatusContent = document.getElementById("legalStatusContent");
     var classificationHeading = document.getElementById(
       "classificationHeading"
     );
@@ -67,8 +67,8 @@ function openPopup(countryName) {
     function updateContent() {
       popup.classList.remove("popup-wrapper-hidden");
       popupCountryName.innerHTML = countryName.countryName;
-      legalStatusHeading.innerHTML = countryName.legalStatus[0];
-      legalStatusContent.innerHTML = countryName.legalStatus[1];
+     legalStatusHeading.innerHTML = countryName.legalStatus[0];
+     legalStatusContent.innerHTML = countryName.legalStatus[1];
       classificationHeading.innerHTML = countryName.classification[0];
       classificationContent.innerHTML = countryName.classification[1];
       licensingHeading.innerHTML = countryName.licensing[0];

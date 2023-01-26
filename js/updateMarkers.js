@@ -28,7 +28,8 @@ fetch('../countryData.json')
           icon = orangeIcon
         } else if (
           countryData[i][selectedValue][0] == "No" ||
-          countryData[i][selectedValue][0] == "Ban"
+          countryData[i][selectedValue][0] == "General Ban" ||
+          countryData[i][selectedValue][0] == "Prohibited" 
         ) {
             icon = redIcon
         } else if (countryData[i][selectedValue] == "Proposed") {
