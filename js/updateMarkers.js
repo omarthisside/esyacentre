@@ -5,7 +5,7 @@ setTimeout(()=>{
   var selectedValue = "legalStatus";
   updateMarkers(selectedValue)
 },500);
-fetch('./../countryData.json')
+fetch('https://omarthisside.github.io/esyacentre')
 .then((response) => response.json())
 .then((json) => countryData = json);
 

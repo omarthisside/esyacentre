@@ -1,1 +1,1 @@
-Permissions-Policy: interest-cohort=("https://omarthisside.github.io/esyacentre" self)
+response.setHeader(Permissions-Policy: interest-cohort=("https://omarthisside.github.io/esyacentre" self))
