@@ -162,14 +162,20 @@
   width: 24px;
 }
 
-.popup {
-  overflow-y: scroll;
-}
 .popup .popup-content {
-  height: 100%;
+  overflow-y: scroll;
+  height: 80%;
+  background: white;
   padding: 20px 30px;
   color: gray;
   padding-bottom: 50px;
+}
+.popup .popup-content::-webkit-scrollbar {
+  width: 10px;
+}
+.popup .popup-content::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #dedede;
 }
 .popup .column-heading {
   font-size: 30px;
@@ -178,9 +184,18 @@
 .popup .column-heading span {
   font-weight: 500;
 }
+.popup .column-heading:first-child {
+  margin-top: 0px !important;
+}
 .popup .paragraph {
   margin-top: 10px;
   font-size: 18px;
+}
+.popup .oneContent {
+  margin-bottom: 30px;
+}
+.popup .oneContent:last-child {
+  margin-bottom: 0;
 }
 @media (max-width: 768px) {
   .popup #map {
@@ -282,5 +297,11 @@
   }
   .legend-header p {
     font-size: 10px !important;
+  }
+  .popup .column-heading {
+    font-size: 25px !important;
+  }
+  .popup .paragraph {
+    font-size: 16px !important;
   }
 }/*# sourceMappingURL=style.css.map */

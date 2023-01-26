@@ -183,15 +183,28 @@ $font-family_1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
 }
 
 .popup {
-  overflow-y: scroll;
   .popup-content {
+  overflow-y: scroll;
+  height: 80%;
+  background: white;
+
     // display: flex;
     // flex-direction: column;
     // height: 80vh;
-    height: 100%;
+    // height: 100%;
     padding: 20px 30px;
     color: gray;
     padding-bottom: 50px;
+  }
+
+  .popup-content::-webkit-scrollbar{
+    width:10px;
+    // background: ;
+  }
+
+  .popup-content::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #dedede;
   }
   .column-heading {
     font-size: 30px;
@@ -200,9 +213,18 @@ $font-family_1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
       font-weight: 500;
     }
   }
+  .column-heading:first-child{
+    margin-top: 0px !important;
+  }
   .paragraph{
     margin-top: 10px;
     font-size: 18px;
+  }
+  .oneContent{
+    margin-bottom: 30px;
+  }
+  .oneContent:last-child{
+    margin-bottom: 0;
   }
   @media (max-width: 768px) {
     #map {
@@ -322,5 +344,14 @@ $font-family_1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
   }
   .legend-header p{
     font-size: 10px !important;
+  }
+
+  .popup{
+    .column-heading{
+      font-size: 25px !important;
+    }
+    .paragraph{
+      font-size: 16px !important;
+    }
   }
 }
