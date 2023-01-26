@@ -2,7 +2,7 @@ setTimeout(()=>{
   var selectedValue = "legalStatus";
   updateMarkers(selectedValue)
 },500);
-fetch('../countryData.json')
+fetch('./../countryData.json')
 .then((response) => response.json())
 .then((json) => countryData = json);
 
