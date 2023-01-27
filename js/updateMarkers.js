@@ -396,7 +396,7 @@ setTimeout(()=>{
           countryData[i][selectedValue][0] == "Prohibited" 
         ) {
             icon = redIcon
-        } else if (countryData[i][selectedValue] == "Proposed") {
+        } else if (countryData[i][selectedValue][0] == "Proposed") {
           icon = yellowIcon
         }
         markers.push(
