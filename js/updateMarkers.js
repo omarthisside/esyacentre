@@ -376,7 +376,7 @@ setTimeout(()=>{
     function updateMarkers(selectedValue) {
       removeMarkers();
       displayLegend(selectedValue);
-      console.log(selectedValue);
+
       for (let i = 0; i < countryData.length; i++) {
         var icon;
         if (
