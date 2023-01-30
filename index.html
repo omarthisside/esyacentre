@@ -10,6 +10,7 @@
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
       crossorigin=""
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
 
     <script
       src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -167,8 +168,8 @@
 
       <!-- Popup -->
       <div class="popup-wrapper popup-wrapper-hidden" id="contentPopup">
-        <div class="overlay"></div>
-        <div class="popup">
+        <div class="overlay" id="overlayID"></div>
+        <div class="popup" id="popupID">
           <div class="popup-header">
             <h3 id="popupCountry">Country Name</h3>
             <button class="close-icon" id="closeIcon">

@@ -2,11 +2,17 @@
 var popup = document.getElementById("contentPopup");
 
 var closeButton = document.getElementById("closeIcon");
+var overlay =  document.getElementById("overlayID")
 
 closeButton.addEventListener("click", () =>{
   popup.classList.add("popup-wrapper-hidden");
 } )
 
+overlayID.addEventListener("click", () =>{
+  popup.classList.add("popup-wrapper-hidden");
+} )
+
+    var popupID = document.getElementById("popupID");
 
 
 function openPopup(countryName) {
@@ -65,6 +71,8 @@ function openPopup(countryName) {
     updateContent();
 
     function updateContent() {
+    popupID.scrollTo({top:0})
+
       popup.classList.remove("popup-wrapper-hidden");
       popupCountryName.innerHTML = countryName.countryName;
      legalStatusHeading.innerHTML = countryName.legalStatus[0];
