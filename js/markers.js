@@ -15,9 +15,9 @@ var openStreetMap = L.tileLayer(
 
 var blueIcon = new L.Icon({
   iconUrl:
-    "https://omarthisside.github.io/icons/blue.png",
+    "../Icons/blue.png",
   shadowUrl:
-    "https://omarthisside.github.io/icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -26,9 +26,9 @@ var blueIcon = new L.Icon({
 
 var greenIcon = new L.Icon({
   iconUrl:
-    "https://omarthisside.github.io/icons/green.png",
+    "../Icons/green.png",
   shadowUrl:
-    "https://omarthisside.github.io/icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -37,9 +37,9 @@ var greenIcon = new L.Icon({
 
 var yellowIcon = new L.Icon({
   iconUrl:
-    "https://omarthisside.github.io/icons/yellow.png",
+    "../Icons/yellow.png",
   shadowUrl:
-    "https://omarthisside.github.io/icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -48,9 +48,9 @@ var yellowIcon = new L.Icon({
 
 var redIcon = new L.Icon({
   iconUrl:
-    "https://omarthisside.github.io/icons/red.png",
+    "../Icons/red.png",
   shadowUrl:
-    "https://omarthisside.github.io/icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -59,9 +59,9 @@ var redIcon = new L.Icon({
 
 var orangeIcon = new L.Icon({
   iconUrl:
-    "https://omarthisside.github.io/icons/orange.png",
+    "../Icons/orange.png",
   shadowUrl:
-    "https://omarthisside.github.io/icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
