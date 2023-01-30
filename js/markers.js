@@ -26,9 +26,9 @@ var blueIcon = new L.Icon({
 
 var greenIcon = new L.Icon({
   iconUrl:
-    "./../Icons/green.png",
+    "../Icons/green.png",
   shadowUrl:
-    "./../Icons/shadow.png",
+    "../Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
