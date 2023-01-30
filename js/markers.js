@@ -15,9 +15,9 @@ var openStreetMap = L.tileLayer(
 
 var blueIcon = new L.Icon({
   iconUrl:
-    "./../Icons/blue.png",
+    "./Icons/blue.png",
   shadowUrl:
-    "./../Icons/shadow.png",
+    "./Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -26,9 +26,9 @@ var blueIcon = new L.Icon({
 
 var greenIcon = new L.Icon({
   iconUrl:
-    "../Icons/green.png",
+    "./Icons/green.png",
   shadowUrl:
-    "../Icons/shadow.png",
+    "./Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -37,9 +37,9 @@ var greenIcon = new L.Icon({
 
 var yellowIcon = new L.Icon({
   iconUrl:
-    "../Icons/yellow.png",
+    "./Icons/yellow.png",
   shadowUrl:
-    "../Icons/shadow.png",
+    "./Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -48,9 +48,9 @@ var yellowIcon = new L.Icon({
 
 var redIcon = new L.Icon({
   iconUrl:
-    "../Icons/red.png",
+    "./Icons/red.png",
   shadowUrl:
-    "../Icons/shadow.png",
+    "./Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -59,9 +59,9 @@ var redIcon = new L.Icon({
 
 var orangeIcon = new L.Icon({
   iconUrl:
-    "../Icons/orange.png",
+    "./Icons/orange.png",
   shadowUrl:
-    "../Icons/shadow.png",
+    "./Icons/shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
