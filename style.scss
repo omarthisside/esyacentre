@@ -132,7 +132,8 @@
   .popup {
     max-width: 1200px;
     min-width: 800px;
-    height: 90%;
+    height: auto;
+    max-height: 90%;
     opacity: 1;
     // width: 100%;
  
@@ -144,6 +145,7 @@
     z-index: 101;
     .paragraph{
       font-weight: 300;
+      line-height: 30px;
     }
     .popup-header {
       background: #011f5b;
@@ -358,4 +360,9 @@
       font-size: 16px !important;
     }
   }
+}
+
+#selectedName{
+  font-weight: bold;
+  color: black;
 }

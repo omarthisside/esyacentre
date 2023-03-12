@@ -406,7 +406,7 @@ setTimeout(()=>{
               .addTo(map)
               .bindTooltip(`${countryData[i].countryName}`)
               .on("click", function () {
-                openPopup(countryData[i]);
+                openPopup(countryData[i],selectedValue);
               })
           );
       }

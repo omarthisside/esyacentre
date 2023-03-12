@@ -15,94 +15,102 @@ overlayID.addEventListener("click", () =>{
     var popupID = document.getElementById("popupID");
 
 
-function openPopup(countryName) {
+function openPopup(countryName, selectedValue) {
+  
+  var selectedName =  document.getElementById("selectedName")
+  var selectedHeading = document.getElementById("selectedHeading");
+  var selectedParagraph = document.getElementById("selectedParagraph");
+
+
     var  popupCountryName = document.getElementById("popupCountry")
-    varlegalStatusHeading = document.getElementById("legalStatusHeading");
-    varlegalStatusContent = document.getElementById("legalStatusContent");
-    var classificationHeading = document.getElementById(
-      "classificationHeading"
-    );
-    var classificationContent = document.getElementById(
-      "classificationContent"
-    );
-    var licensingHeading = document.getElementById("licensingHeading");
-    var licensingContent = document.getElementById("licensingContent");
-    var corporateGovernanceHeading = document.getElementById(
-      "corporateGovernanceHeading"
-    );
-    var corporateGovernanceContent = document.getElementById(
-      "corporateGovernanceContent"
-    );
-    var riskManagementHeading = document.getElementById(
-      "riskManagementHeading"
-    );
-    var riskManagementContent = document.getElementById(
-      "riskManagementContent"
-    );
-    var taxationHeading = document.getElementById("taxationHeading");
-    var taxationContent = document.getElementById("taxationContent");
-    var capitalControlsHeading = document.getElementById(
-      "capitalControlsHeading"
-    );
-    var capitalControlsContent = document.getElementById(
-      "capitalControlsContent"
-    );
-    var amlCftHeading = document.getElementById("amlCftHeading");
-    var amlCftContent = document.getElementById("amlCftContent");
-    var grivanceRedressalHeading = document.getElementById(
-      "grivanceRedressalHeading"
-    );
-    var grivanceRedressalContent = document.getElementById(
-      "grivanceRedressalContent"
-    );
-    var dataProtectionHeading = document.getElementById(
-      "dataProtectionHeading"
-    );
-    var dataProtectionContent = document.getElementById(
-      "dataProtectionContent"
-    );
-    var advertisingRegulationsHeading = document.getElementById(
-      "advertisingRegulationsHeading"
-    );
-    var advertisingRegulationsContent = document.getElementById(
-      "advertisingRegulationsContent"
-    );
+   
 
     updateContent();
 
     function updateContent() {
     popupID.scrollTo({top:0})
 
+
+    switch(selectedValue){
+      case "legalStatus":
+        selectedName.innerHTML = "Legal Status"
+        selectedHeading.innerHTML = countryName.legalStatus[0];
+        selectedParagraph.innerHTML = countryName.legalStatus[1];
+      break;
+      case "classification":
+        selectedName.innerHTML = "Classification"
+
+        selectedHeading.innerHTML = countryName.classification[0];
+        selectedParagraph.innerHTML = countryName.classification[1];
+      break;
+      case "licensing":
+        selectedName.innerHTML = "Licensing"
+
+
+        selectedHeading.innerHTML = countryName.licensing[0];
+        selectedParagraph.innerHTML = countryName.licensing[1];
+      break;
+      case "corporateGovernance":
+        selectedName.innerHTML = "Corporate Governance"
+    
+      selectedHeading.innerHTML =
+      countryName.corporateGovernance[0];
+      selectedParagraph.innerHTML =
+      countryName.corporateGovernance[1];
+      break;
+      case "riskManagement":
+        selectedName.innerHTML = "Risk Management"
+
+        selectedHeading.innerHTML = countryName.riskManagement[0];
+        selectedParagraph.innerHTML = countryName.riskManagement[1];
+      break;
+      case "taxation":
+        selectedName.innerHTML = "Taxation"
+     
+      selectedHeading.innerHTML = countryName.taxation[0];
+      selectedParagraph.innerHTML = countryName.taxation[1];
+      break;
+      case "capitalControls":
+        selectedName.innerHTML = "Capital Controls"
+     
+      selectedHeading.innerHTML = countryName.capitalControls[0];
+      selectedParagraph.innerHTML = countryName.capitalControls[1];
+      break;
+      case "amlCft":
+        selectedName.innerHTML = "Aml/Cft"
+
+        selectedHeading.innerHTML = countryName.amlCft[0];
+        selectedParagraph.innerHTML = countryName.amlCft[1];
+      break;
+      case "grievanceRedressal":
+        selectedName.innerHTML = "Grievance Redressal"
+    
+      selectedHeading.innerHTML =
+        countryName.grievanceRedressal[0];
+        selectedParagraph.innerHTML =
+        countryName.grievanceRedressal[1];
+      break;
+      case "dataProtection":
+        selectedName.innerHTML = "Data Protection"
+
+        selectedHeading.innerHTML = countryName.dataProtection[0];
+        selectedParagraph.innerHTML = countryName.dataProtection[1];
+      break;
+      case "advertisingRegulations":
+        selectedName.innerHTML = "Advertising Regulations"
+
+        selectedHeading.innerHTML =
+        countryName.advertisingRegulations[0];
+        selectedParagraph.innerHTML =
+        countryName.advertisingRegulations[1];
+      break;
+    }
+
+
       popup.classList.remove("popup-wrapper-hidden");
       popupCountryName.innerHTML = countryName.countryName;
-     legalStatusHeading.innerHTML = countryName.legalStatus[0];
-     legalStatusContent.innerHTML = countryName.legalStatus[1];
-      classificationHeading.innerHTML = countryName.classification[0];
-      classificationContent.innerHTML = countryName.classification[1];
-      licensingHeading.innerHTML = countryName.licensing[0];
-      licensingContent.innerHTML = countryName.licensing[1];
-      corporateGovernanceHeading.innerHTML =
-        countryName.corporateGovernance[0];
-      corporateGovernanceContent.innerHTML =
-        countryName.corporateGovernance[1];
-      riskManagementHeading.innerHTML = countryName.riskManagement[0];
-      riskManagementContent.innerHTML = countryName.riskManagement[1];
-      taxationHeading.innerHTML = countryName.taxation[0];
-      taxationContent.innerHTML = countryName.taxation[1];
-      capitalControlsHeading.innerHTML = countryName.capitalControls[0];
-      capitalControlsContent.innerHTML = countryName.capitalControls[1];
-      amlCftHeading.innerHTML = countryName.amlCft[0];
-      amlCftContent.innerHTML = countryName.amlCft[1];
-      grievanceRedressalHeading.innerHTML =
-        countryName.grievanceRedressal[0];
-      grievanceRedressalContent.innerHTML =
-        countryName.grievanceRedressal[1];
-      dataProtectionHeading.innerHTML = countryName.dataProtection[0];
-      dataProtectionContent.innerHTML = countryName.dataProtection[1];
-      advertisingRegulationsHeading.innerHTML =
-        countryName.advertisingRegulations[0];
-      advertisingRegulationsContent.innerHTML =
-        countryName.advertisingRegulations[1];
+     
+     
     }
 
   }
