@@ -61,7 +61,7 @@
   padding: 0px 12px;
 }
 .color-legend .legend-header {
-  width: 140px;
+  width: auto;
   background: #011f5b;
   padding: 10px 8px;
 }
@@ -188,6 +188,7 @@
 .popup .column-heading {
   font-size: 30px;
   font-weight: bold;
+  color: #444444;
 }
 .popup .column-heading span {
   font-weight: 500;

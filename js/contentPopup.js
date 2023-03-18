@@ -77,7 +77,7 @@ function openPopup(countryName, selectedValue) {
       selectedParagraph.innerHTML = countryName.capitalControls[1];
       break;
       case "amlCft":
-        selectedName.innerHTML = "Aml/Cft"
+        selectedName.innerHTML = "AML/CFT"
 
         selectedHeading.innerHTML = countryName.amlCft[0];
         selectedParagraph.innerHTML = countryName.amlCft[1];
@@ -98,11 +98,31 @@ function openPopup(countryName, selectedValue) {
       break;
       case "advertisingRegulations":
         selectedName.innerHTML = "Advertising Regulations"
-
         selectedHeading.innerHTML =
         countryName.advertisingRegulations[0];
         selectedParagraph.innerHTML =
         countryName.advertisingRegulations[1];
+      break;
+      case "consumerAwareness":
+        selectedName.innerHTML = "Consumer Awareness"
+        selectedHeading.innerHTML =
+        countryName.consumerAwareness[0];
+        selectedParagraph.innerHTML =
+        countryName.consumerAwareness[1];
+      break;
+      case "investorProtection":
+        selectedName.innerHTML = "Investor Protection and Insurance"
+        selectedHeading.innerHTML =
+        countryName.investorProtection[0];
+        selectedParagraph.innerHTML =
+        countryName.investorProtection[1];
+      break;
+      case "restrictions":
+        selectedName.innerHTML = "Restrictions"
+        selectedHeading.innerHTML =
+        countryName.restrictions[0];
+        selectedParagraph.innerHTML =
+        countryName.restrictions[1];
       break;
     }
 

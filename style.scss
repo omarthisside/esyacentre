@@ -69,7 +69,8 @@
     padding: 0px 12px;
   }
   .legend-header{
-    width: 140px;
+    width: auto;
+    
     background: #011f5b;
     padding: 10px 8px;
     p{
@@ -215,6 +216,7 @@
   .column-heading {
     font-size: 30px;
     font-weight: bold;
+    color: #444444;
     span {
       font-weight: 500;
     }

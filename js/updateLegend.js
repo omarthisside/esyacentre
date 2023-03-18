@@ -36,7 +36,7 @@
           selectedKey.innerHTML = "Capital Controls";
           break;
           case "amlCft":
-          selectedKey.innerHTML = "Aml/Cft";
+          selectedKey.innerHTML = "AML/CFT";
           break;
           case "grievanceRedressal":
           selectedKey.innerHTML = "Grievance Redressal";
@@ -46,6 +46,15 @@
           break;
           case "advertisingRegulations":
           selectedKey.innerHTML = "Advertising Regulations";
+          break;
+          case "consumerAwareness":
+          selectedKey.innerHTML = "Consumer Awareness";
+          break;
+          case "investorProtection":
+          selectedKey.innerHTML = "Investor Protection and Insurance";
+          break;
+          case "advertisingRegulations":
+          selectedKey.innerHTML = "Restrictions";
           break;
       }
     }
@@ -71,6 +80,13 @@
     //   yellowLegend.innerHTML = "Proposed";
     //   yellowLegendCont.style.display = "flex";
     // }
+
+   else if (selectedData == "consumerAwareness") {
+    greenLegend.innerHTML = "Yes";
+    orangeLegend.innerHTML = "Partial";
+    redLegend.innerHTML = "No";
+    yellowLegend.innerHTML = "Proposed/<br/>Under Consultation";
+    yellowLegendCont.style.display = "flex";}
     
     
     else {
