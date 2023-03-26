@@ -133,15 +133,15 @@
   .popup {
     max-width: 1200px;
     min-width: 800px;
-    height: auto;
-    max-height: 90%;
+    height: 50%;
+    // max-height: 90%;
     opacity: 1;
     // width: 100%;
  
     background: white;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 40%;
     left: 50%;
     z-index: 101;
     .paragraph{
@@ -192,7 +192,7 @@
 .popup {
   .popup-content {
   overflow-y: scroll;
-  height: 80%;
+  height: 100%;
   background: white;
 
     // display: flex;

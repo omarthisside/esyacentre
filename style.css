@@ -119,13 +119,12 @@
 .popup-wrapper .popup {
   max-width: 1200px;
   min-width: 800px;
-  height: auto;
-  max-height: 90%;
+  height: 50%;
   opacity: 1;
   background: white;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 40%;
   left: 50%;
   z-index: 101;
 }
@@ -172,7 +171,7 @@
 
 .popup .popup-content {
   overflow-y: scroll;
-  height: 80%;
+  height: 100%;
   background: white;
   padding: 20px 30px;
   color: gray;
