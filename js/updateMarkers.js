@@ -95,12 +95,12 @@ setTimeout(()=>{
           "<p>There are currently no risk management requirements for DASPs in Australia. However, DASPs have to comply with reserve and equity requirements under the AFS license if they are offering financial products</p>\n\n<p>Source: 1. <a href=\"https://asic.gov.au/for-finance-professionals/afs-licensees/afs-licensee-obligations/\">Obligations of Australian Financial Services Licensees</a></p>\n"
         ],
         "taxation": [
-          "",
-          "<p>The Australian Tax Office provides detailed guidance on when earnings from exchanging, trading, selling and issuing digital assets will constitute a taxable event. It also specifies when different kinds of tax may become applicable. The capital gains tax rate for residents in Australia are:</p>\n\n<p>0 - 18,200: 0%<br />\n10,201-45,000: 19%<br />\n45,001 - 120,000: 32.5%<br />\n120,001 - 180,000: 37%<br />\n180,001+: 45%</p>\n\n<p>Capital gains have to be reported as part of the Income Tax Return. There is a reduced tax on the disposal of long-term digital asset holdings</p>\n\n<p>GST may be also be applicable in some situations, particularly where the supply of mining services is involved</p>\n\n<p>Source:<a href=\"https://www.ato.gov.au/General/Other-languages/In-detail/Information-in-other-languages/Crypto-asset-investments-and-tax/#Taxresponsibilities\"> </a></p>\n\n<p>1. <a href=\"https://www.ato.gov.au/General/Other-languages/In-detail/Information-in-other-languages/Crypto-asset-investments-and-tax/#Taxresponsibilities\">Tax Responsibilities of Crypto Asset Investments </a></p>\n\n<p>2. <a href=\"https://taxboard.gov.au/sites/taxboard.gov.au/files/2022-08/cg-digital-assets-2022.pdf\">Australian Board of Taxation&#39;s Review of the Tax Treatment of Digital Assets and Transactions</a></p>\n"
+          "Yes",
+          "<b>Capital Gains, Income Tax and GST</b><br/><p>The Australian Tax Office provides detailed guidance on when earnings from exchanging, trading, selling and issuing digital assets will constitute a taxable event. It also specifies when different kinds of tax may become applicable. The capital gains tax rate for residents in Australia are:</p>\n\n<p>0 - 18,200: 0%<br />\n10,201-45,000: 19%<br />\n45,001 - 120,000: 32.5%<br />\n120,001 - 180,000: 37%<br />\n180,001+: 45%</p>\n\n<p>Capital gains have to be reported as part of the Income Tax Return. There is a reduced tax on the disposal of long-term digital asset holdings</p>\n\n<p>GST may be also be applicable in some situations, particularly where the supply of mining services is involved</p>\n\n<p>Source:<a href=\"https://www.ato.gov.au/General/Other-languages/In-detail/Information-in-other-languages/Crypto-asset-investments-and-tax/#Taxresponsibilities\"> </a></p>\n\n<p>1. <a href=\"https://www.ato.gov.au/General/Other-languages/In-detail/Information-in-other-languages/Crypto-asset-investments-and-tax/#Taxresponsibilities\">Tax Responsibilities of Crypto Asset Investments </a></p>\n\n<p>2. <a href=\"https://taxboard.gov.au/sites/taxboard.gov.au/files/2022-08/cg-digital-assets-2022.pdf\">Australian Board of Taxation&#39;s Review of the Tax Treatment of Digital Assets and Transactions</a></p>\n"
         ],
         "capitalControls": [
           "No",
-          "<p>Australia does not have a capital controls regime</p>\n\n<p>Source:</p>\n\n<p><a href=\"https://www.bis.org/publ/cgfs33rba.pdf\">1. </a><a href=\"https://www.bis.org/publ/cgfs33rba.pdf\">Australia&#39;s experience with Capital Flows under different exchange rate regimes</a></p>\n"
+          "<p>Australia does not have a capital controls regime</p><br/>Source:<br/>1.<a href=\"https://www.bis.org/publ/cgfs33rba.pdf\">Australia&#39;s experience with Capital Flows under different exchange rate regimes</a>\n"
         ],
         "amlCft": [
           "Yes",
@@ -128,7 +128,7 @@ setTimeout(()=>{
         ],
         "restrictions": [
           "Yes",
-          "<p>Digital asset exchanges in Australia do not offer privacy coin like Monero and zCash. It is not clear if this due to explicit instructions or guidance from the Government Source<a href=\"https://cointelegraph.com/news/australian-exchanges-delist-privacy-coins-amid-chainalysis-integration\">: </a></p>\n\n<p><a href=\"https://cointelegraph.com/news/australian-exchanges-delist-privacy-coins-amid-chainalysis-integration\">Coindesk</a></p>\n"
+          "<p>Digital asset exchanges in Australia do not offer privacy coin like Monero and zCash. It is not clear if this due to explicit instructions or guidance from the Government</p> Source:&nbsp;<a href=\"https://cointelegraph.com/news/australian-exchanges-delist-privacy-coins-amid-chainalysis-integration\">Coindesk</a>"
         ],
         "lat": "-35.282001",
         "lang": "149.128998"
@@ -324,7 +324,7 @@ setTimeout(()=>{
         ],
         "classification": [
           "Yes",
-          "<p>The PACTE divides digital assets into: a. Utility Tokens b. Cryptocurrencies Stablecoins, NFTs and security tokens are not covered under this definition<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038509570\">/ </a></p>\n\n<p>Source: <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038509570\">Article L54-10-1, Monetary and Financial Code, 2000 - France</a></p>\n"
+          "<p>The PACTE divides digital assets into:<br/> a. Utility Tokens <br/>b. Cryptocurrencies Stablecoins, NFTs and security tokens are not covered under this definition</p>\n\n<p>Source: <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038509570\">Article L54-10-1, Monetary and Financial Code, 2000 - France</a></p>\n"
         ],
         "licensing": [
           "Yes",
@@ -332,7 +332,7 @@ setTimeout(()=>{
         ],
         "corporateGovernance": [
           "Partial",
-          "<p>DASPs seeking an optional license from the AMF must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE Source<a href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\">: </a><br />\n1. <a href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\">PACTE </a><br />\n2. <a href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\">AMF on Digital Assets Service Providers Scheme </a></p>\n"
+          "<p>DASPs seeking an optional license from the AMF must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE <br/><br/>\nSource:<br />\n1. <a href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\">PACTE </a><br />\n2. <a href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\">AMF on Digital Assets Service Providers Scheme </a></p>\n"
         ],
         "riskManagement": [
           "Partial",
@@ -454,7 +454,7 @@ setTimeout(()=>{
         ],
         "corporateGovernance": [
           "No",
-          "<p>There is no specific licensing regime for DASPs. The Companies Act requires all companies to declare their digital asset holdings<br />\n<br />\nSource:<br />\n<br />\n1. <a href=\"https://www.mca.gov.in/Ministry/pdf/ScheduleIIIAmendmentNotification_24032021.pdf\" target=\"_blank\">Amendment to Schedule III of Companies Act, 2013</a></p>\n"
+          "<p>No specific corporate governance requirements are prescribed for DASPs<br />\n<br />\nSource:<br />\n<br />\n1. <a href=\"https://www.mca.gov.in/Ministry/pdf/ScheduleIIIAmendmentNotification_24032021.pdf\" target=\"_blank\">Amendment to Schedule III of Companies Act, 2013</a></p>\n"
         ],
         "riskManagement": [
           "No",
@@ -462,7 +462,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Income Tax</strong></p>\n\n<p>A new section 115BBH has been inserted in the Act to provide a tax of 30% on income from &quot;virtual digital assets&quot;. A 1% TDS is also applicable on all digital asset transactions.<br />\nSource(s);<br />\n<br />\n1. <a href=\"https://incometaxindia.gov.in/news/circular-23-2022.pdf\" target=\"_blank\">Circular by the Central Board of Direct Taxes inserting section 115 BBH to the Finance Act, 2022</a><br />\n2. <a href=\"https://www.forbes.com/advisor/in/investing/cryptocurrency/cryptocurrency-tax-in-india/\" target=\"_blank\">Tax on Cryptocurrencies in India</a></p>\n"
+          "<p><strong>Income Tax</strong></p>\n\n<p>A new section 115BBH has been inserted in the Act to provide a tax of 30% on income from &quot;virtual digital assets&quot;. A 1% TDS is also applicable on all digital asset transactions.<br /><br/>\nSource(s);<br />1. <a href=\"https://incometaxindia.gov.in/news/circular-23-2022.pdf\" target=\"_blank\">Circular by the Central Board of Direct Taxes inserting section 115 BBH to the Finance Act, 2022</a><br />\n2. <a href=\"https://www.forbes.com/advisor/in/investing/cryptocurrency/cryptocurrency-tax-in-india/\" target=\"_blank\">Tax on Cryptocurrencies in India</a></p>\n"
         ],
         "capitalControls": [
           "No",
@@ -470,7 +470,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>The Government has included digital assets under the ambit of the Prevention of Money Laundering Act. The notification requires businesses carrying out the following activities will be considered reporting entities for AML/CFT purposes:<br />\n<br />\n(i) exchange between virtual digital assets and fiat currencies;<br />\n(ii) exchange between one or more forms of virtual digital assets;<br />\n(iii) transfer of virtual digital assets;<br />\n(iv) safekeeping or administration of virtual digital assets or instruments enabling control over virtual digital assets; and (v)<br />\nparticipation in and provision of financial services related to an issuer&rsquo;s offer and sale of a virtual digital asset.<br />\n<br />\nSource:<br />\n<a href=\"https://egazette.nic.in/WriteReadData/2023/244184.pdf\">Gazette Notification</a></p>\n"
+          "<p>The Government has included digital assets under the ambit of the Prevention of Money Laundering Act. The notification requires businesses carrying out the following activities will be considered reporting entities for AML/CFT purposes:<br />\n<br />\n(i) exchange between virtual digital assets and fiat currencies;<br />\n(ii) exchange between one or more forms of virtual digital assets;<br />\n(iii) transfer of virtual digital assets;<br />\n(iv) safekeeping or administration of virtual digital assets or instruments enabling control over virtual digital assets; and<br />\n (v)participation in and provision of financial services related to an issuer&rsquo;s offer and sale of a virtual digital asset.<br />\n<br />\nSource:<br />\n<a href=\"https://egazette.nic.in/WriteReadData/2023/244184.pdf\">Gazette Notification</a></p>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -657,7 +657,7 @@ setTimeout(()=>{
         ],
         "grievanceRedressal": [
           "Yes",
-          "<p>YePSA requires exchanges to establish internal control systems for responding to user complaints and take measures to resolve disputes through alternative dispute resolution procedures.<br />\n<br />\nSource<a href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/japan\" target=\"_blank\">: </a><br />\n<br />\n<a href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/japan\" target=\"_blank\">Global Legal Insigh</a><a href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/japan\">ts</a><br />\n<a href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
+          "<p>YePSA requires exchanges to establish internal control systems for responding to user complaints and take measures to resolve disputes through alternative dispute resolution procedures.<br />\n<br />\nSource:<br />\n<a href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/japan\" target=\"_blank\">Global Legal Insigh</a><a href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/japan\">ts</a><br />\n<a href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
         ],
         "dataProtection": [
           "Yes",
@@ -676,7 +676,7 @@ setTimeout(()=>{
           "<p>Stablecoins can only be issued by regulated financial entities and, hence, are protected by deposit insurance<br />\n<br />\nThe same protection does not appear to extend to other digital assets<br />\n<br />\nSource: <a href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
         ],
         "restrictions": [
-          "",
+          "Yes",
           "<p>Yes<br />\n<br />\nRestrictions are placed on the issuance of stablecoins. Only bank, fund transfer service providers and trust companies are allowed to issue stablecoins to Japanese citizens.<br />\n<br />\n<br />\nJapan has banned the use of all digital assets that provide a sufficient degree of anonymity, inclusing Monero, Dash and ZCash.<br />\n<br />\nSource:<br />\n1. <a href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\">Financial Services Agency Japan - Regulating Crypto Assets</a><br />\n2. <a href=\"https://www.investopedia.com/news/japans-fsa-bans-private-cryptocurrencies/\">FSA Ban on Private Cryptocurrencies</a></p>\n"
         ],
         "lat": "35.6762",
@@ -1039,7 +1039,7 @@ setTimeout(()=>{
         ],
         "investorProtection": [
           "No",
-          "<p>Current regulations do not address generating awareness or providing users with adequate information regarding the digital asset being offered</p>\n"
+          "<p>Digital Assets do not appear to be covered by insurance that applies to other financial products</p>\n"
         ],
         "restrictions": [
           "Yes",
@@ -1056,7 +1056,7 @@ setTimeout(()=>{
         ],
         "classification": [
           "Yes",
-          "<p>The Financial Conduct Authority clarified the regulation of digital assets through Policy Statement 19/22 in 2019. The statement classified digital assets into:<br />\n<br />\na) security tokens<br />\nb) e-money tokens (including stablecoins)<br />\nc) unregulated tokens<br />\n<br />\nThis classification is meant to provide clarity on the regulatory perimeter for digital assets. Security and e-money tokens are within the FCA&#39;s jurisdiction whereas unregulated tokens are not.<br />\n<br />\n<br />\n<br />\nSource:<br />\nPolicy Statement 19/22<br />\n&nbsp;</p>\n"
+          "<p>The Financial Conduct Authority clarified the regulation of digital assets through Policy Statement 19/22 in 2019. The statement classified digital assets into:<br />\n<br />\na) security tokens<br />\nb) e-money tokens (including stablecoins)<br />\nc) unregulated tokens<br />\n<br />\nThis classification is meant to provide clarity on the regulatory perimeter for digital assets. Security and e-money tokens are within the FCA&#39;s jurisdiction whereas unregulated tokens are not.<br />\n<br />\nSource:<br />\nPolicy Statement 19/22<br />\n&nbsp;</p>\n"
         ],
         "licensing": [
           "Yes",
@@ -1103,7 +1103,7 @@ setTimeout(()=>{
           "<p>Digital assets are generally not covered by the Financial Services Compensation Scheme - which provides insurance against the loss of financial holdings<br />\n<br />\nSource:<br />\n1. <a href=\"https://www.fscs.org.uk/news/protection/cryptocurrencies-risk-cover/\">FCFS</a></p>\n"
         ],
         "restrictions": [
-          "",
+          "Yes",
           "<p>The FCA has banned the offering of digital asset derivates to retail users due to their high volatility<br />\n<br />\nSource: <a href=\"https://www.fca.org.uk/news/press-releases/fca-bans-sale-crypto-derivatives-retail-consumers\">FCA ban on sale of crypto-derivatives to retail consumers</a></p>\n"
         ],
         "lat": "51.5074",
