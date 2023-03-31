@@ -87,7 +87,9 @@
     orangeLegend.innerHTML = "Partial";
     redLegend.innerHTML = "No";
     yellowLegend.innerHTML = "Proposed/<br/>Under Consultation";
-    yellowLegendCont.style.display = "flex";}
+    yellowLegendCont.style.display = "flex";
+    orangeLegendCont.style.display = "flex";}
+
     
     
     else {
@@ -96,5 +98,7 @@
       redLegend.innerHTML = "No";
       yellowLegend.innerHTML = "Proposed";
       yellowLegendCont.style.display = "flex";
+      orangeLegendCont.style.display = "flex";
+
     }
   }
