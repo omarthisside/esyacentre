@@ -1226,7 +1226,7 @@ setTimeout(()=>{
         ],
         "restrictions": [
           "No",
-          "<p>There do not appear to be regulatory restrictions on digital asset activity</p>\n"
+          "<p>There do not appear to be regulatory restrictions on digital asset activity</p>\n "
         ],
         "lat": "50.8503",
         "lang": "4.3517"
