@@ -66,21 +66,7 @@
       redLegend.innerHTML = "General Ban";
       yellowLegend.innerHTML = " ";
       yellowLegendCont.style.display = "none";}
-    // }  else if(selectedData == "dataProtection" || selectedData == "grievanceRedressal") {
-    //   greenLegend.innerHTML = "Yes";
-    //   orangeLegend.innerHTML = "Partial - General Legislation";
-    //   redLegend.innerHTML = "No";
-    //   yellowLegend.innerHTML = "Proposed";
-    //   yellowLegendCont.style.display = "flex";
-    // }
-
-    // else if(selectedData == "advertisingRegulations" || selectedData == "grievanceRedressal") {
-    //   greenLegend.innerHTML = "Yes";
-    //   orangeLegend.innerHTML = "Partial";
-    //   redLegend.innerHTML = "Prohibited";
-    //   yellowLegend.innerHTML = "Proposed";
-    //   yellowLegendCont.style.display = "flex";
-    // }
+ 
 
    else if (selectedData == "consumerAwareness") {
     greenLegend.innerHTML = "Yes";
