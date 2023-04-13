@@ -35,15 +35,15 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Income Tax, Personal Assets Tax</strong></p>\n<p>For resident individuals, gains derived from the disposal of digital assets is subject to an income tax of 15% Resident legal entities are taxed 25-35% on gains from disposing of digital assets Non-residents who obtain gains from disposing digital assets and there is an Argentine source of income are taxed at a rate of 15%</p>\n<p>Residents are taxed on the assets they own at a rate that ranges from 0.50% to 2.25% depending on the value of the assets and where it is located. A check tax of 0.6% on all transactions involving digital has also been imposed</p>\n<p>No Value Added Tax is imposed on digital assets.<br />Source:</p>\n<p>1. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/normativa/nacional/ley-27430-305262/texto\">Income Tax Law in Argentina</a><br />2. <a target=\"_blank\"  href=\"https://markets.businessinsider.com/news/currencies/crypto-tax-cryptocurrency-transactions-argentina-exchanges-check-decree-brokers-2021-11\">Business Insider</a><br />3. <a target=\"_blank\"  href=\"https://thelawreviews.co.uk/title/the-virtual-currency-regulation-review/argentina#footnote-004\">Regulation Review for Virtual Currencies in Argentina </a></p>\n"
+          "<p><strong>Income Tax, Personal Assets Tax</strong></p>\n<p>For resident individuals, gains derived from the disposal of digital assets is subject to an income tax of 15% Resident legal entities are taxed 25-35% on gains from disposing of digital assets Non-residents who obtain gains from disposing digital assets and there is an Argentine source of income are taxed at a rate of 15%</p>\n<p>Residents are taxed on the assets they own at a rate that ranges from 0.50% to 2.25% depending on the value of the assets and where it is located. A check tax of 0.6% on all transactions involving digital has also been imposed</p>\n<p>No Value Added Tax is imposed on digital assets.<br /><p>Source:\n<br/>1. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/normativa/nacional/ley-27430-305262/texto\">Income Tax Law in Argentina</a><br />2. <a target=\"_blank\"  href=\"https://markets.businessinsider.com/news/currencies/crypto-tax-cryptocurrency-transactions-argentina-exchanges-check-decree-brokers-2021-11\">Business Insider</a><br />3. <a target=\"_blank\"  href=\"https://thelawreviews.co.uk/title/the-virtual-currency-regulation-review/argentina#footnote-004\">Regulation Review for Virtual Currencies in Argentina </a></p>\n"
         ],
         "capitalControls": [
           "No",
-          "<p>Argentina has a strong capital controls regime, the provisions of which have not been explicitly extended to digital assets for the moment.</p>\n<p>Source: 1. <a target=\"_blank\"  href=\"https://www.bcra.gob.ar/Pdfs/Texord/t-excbio.pdf\" target=\"_blank\">Argentinian Central Bank</a></p>\n"
+          "<p>Argentina has a strong capital controls regime, the provisions of which have not been explicitly extended to digital assets for the moment.</p>\n<p>Source: <br/>1. <a target=\"_blank\"  href=\"https://www.bcra.gob.ar/Pdfs/Texord/t-excbio.pdf\" target=\"_blank\">Argentinian Central Bank</a></p>\n"
         ],
         "amlCft": [
           "Partial",
-          "<p>Argentina issued UIF Resolution 300 in 2014 to create reporting obligations for financial institutions on &quot;operations performed with virtual coins&quot;.</p>\n<p>General Resolution AFIP 4614/2019 requires giving information to the Federal Administration of Public Revenues (AFIP) on transactions that include virtual accounts, digital wallets and service providers. The AFIP uses this information to monitor the development of the digital asset ecosystem as well as to collect taxes on these transactions.</p>\n<p>Argentina may revise its anti-money laundering law to include a registry for DASPs.</p>\n<p>Source:</p>\n<p>1. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-300-2014-231930\">The Resolution on Money Laundering and financing of Terrorism - Argentina</a><br />2. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/sites/default/files/ssn_law_25246.pdf\">Amendment to provisions of Financial Crime in Argentina&#39;s Criminal Code</a><br />3. <a target=\"_blank\"  href=\"https://www.newsbtc.com/news/argentina-orders-financial-institutions-report-virtual-currency-transactions/\">News BTC</a></p>\n"
+          "<p>Argentina issued UIF Resolution 300 in 2014 to create reporting obligations for financial institutions on &quot;operations performed with virtual coins&quot;.</p>\n<p>General Resolution AFIP 4614/2019 requires giving information to the Federal Administration of Public Revenues (AFIP) on transactions that include virtual accounts, digital wallets and service providers. The AFIP uses this information to monitor the development of the digital asset ecosystem as well as to collect taxes on these transactions.</p>\n<p>Argentina may revise its anti-money laundering law to include a registry for DASPs.</p>\n<p>Source:<br/>1. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-300-2014-231930\">The Resolution on Money Laundering and financing of Terrorism - Argentina</a><br />2. <a target=\"_blank\"  href=\"https://www.argentina.gob.ar/sites/default/files/ssn_law_25246.pdf\">Amendment to provisions of Financial Crime in Argentina&#39;s Criminal Code</a><br />3. <a target=\"_blank\"  href=\"https://www.newsbtc.com/news/argentina-orders-financial-institutions-report-virtual-currency-transactions/\">News BTC</a>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -55,7 +55,7 @@ setTimeout(()=>{
         ],
         "advertisingRegulations": [
           "No",
-          "<p>No specific regulations or guidelines currently limit digital asset-related advertising. However, the head of Argentina&#39;s Capital Markets Authority has noted the need to regulate ads put out by DASPs<p>Source: 1. <a target=\"_blank\"  href=\"https://news.bloombergtax.com/crypto/argentinas-cnv-aims-to-regulate-crypto-advertising-and-business\">Bloomberg</a></p>\n"
+          "<p>No specific regulations or guidelines currently limit digital asset-related advertising. However, the head of Argentina&#39;s Capital Markets Authority has noted the need to regulate ads put out by DASPs<p>Source:<br/> 1. <a target=\"_blank\"  href=\"https://news.bloombergtax.com/crypto/argentinas-cnv-aims-to-regulate-crypto-advertising-and-business\">Bloomberg</a></p>\n"
         ],
         "consumerAwareness": [
           "Proposed",
@@ -76,7 +76,7 @@ setTimeout(()=>{
         "countryName": "Australia",
         "legalStatus": [
           "Legal",
-          "<p>While there is currently no specific regulation for digital assets in Australia, they may be regulated as collective investment schemes, securities or ETPs governed under the Corporations Act 2001 and the Australian Securities and Investments Commission Act depending on their rights and features.</p>\n<p>A proposed framework that comprehensively regulates digital assets is also being worked on</p>\nSource(s):<br/>1. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets/\">Obligations related to crypto assets in Australia under the Corporations Act (2001) and the Australian Securities and Investments Commission Act (2001)</a><br />2. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/evaluating-distributed-ledger-technology/\">Australian Securities and Investments Commission on Distributed Ledger Technology</a><br />3. <a target=\"_blank\"  href=\"https://www.forbesindia.com/article/cryptocurrency/new-crypto-regulations-announced-by-australian-treasurer/81353/1\">Australian Treasurer&#39;s announcement of new Crypto Regulations</a></p>\n"
+          "<p>While there is currently no specific regulation for digital assets in Australia, they may be regulated as collective investment schemes, securities or ETPs governed under the Corporations Act 2001 and the Australian Securities and Investments Commission Act depending on their rights and features.</p>\n<p>A proposed framework that comprehensively regulates digital assets is also being worked on</p><p>Source(s):<br/>1. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets/\">Obligations related to crypto assets in Australia under the Corporations Act (2001) and the Australian Securities and Investments Commission Act (2001)</a><br />2. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/evaluating-distributed-ledger-technology/\">Australian Securities and Investments Commission on Distributed Ledger Technology</a><br />3. <a target=\"_blank\"  href=\"https://www.forbesindia.com/article/cryptocurrency/new-crypto-regulations-announced-by-australian-treasurer/81353/1\">Australian Treasurer&#39;s announcement of new Crypto Regulations</a></p>\n"
         ],
         "classification": [
           "Yes",
@@ -84,11 +84,11 @@ setTimeout(()=>{
         ],
         "licensing": [
           "Yes",
-          "<p>All &quot;digital currency&quot; exchanges must register with the AUSTRAC, which is Australia&#39;s anti-money laundering watchdog.</p>\n<p>Additionally, any digital asset service provider that lists or issues currencies classified as financial products requires an &quot;Australian Financial Services&quot; AFS license</p>\n<p>A consultation on creating a licensing and custody requirement framework for &quot;crypto asset secondary service providers&quot; (CASSPs) was completed by the Treasury in May 2022. Further developments in this regard are awaited</p>\n<p>Sources:</p>\n<p>1. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/business/industry-specific-guidance/digital-currency-exchange-providers\">Australian Government&#39;s guidelines to Digital currency exchange providers</a><br />2. <a target=\"_blank\"  href=\"https://treasury.gov.au/consultation/c2022-259046\">Licensing and custody requirements for Secondary service providers of Crypto Assets</a><br />3. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets\">Obligations related to crypto assets in Australia under the Corporations Act (2001) and the Australian Securities and Investments Commission Act (2001)</a></p>\n"
+          "<p>All &quot;digital currency&quot; exchanges must register with the AUSTRAC, which is Australia&#39;s anti-money laundering watchdog.</p>\n<p>Additionally, any digital asset service provider that lists or issues currencies classified as financial products requires an &quot;Australian Financial Services&quot; AFS license</p>\n<p>A consultation on creating a licensing and custody requirement framework for &quot;crypto asset secondary service providers&quot; (CASSPs) was completed by the Treasury in May 2022. Further developments in this regard are awaited</p><p>Sources:<br/>1. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/business/industry-specific-guidance/digital-currency-exchange-providers\">Australian Government&#39;s guidelines to Digital currency exchange providers</a><br />2. <a target=\"_blank\"  href=\"https://treasury.gov.au/consultation/c2022-259046\">Licensing and custody requirements for Secondary service providers of Crypto Assets</a><br />3. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets\">Obligations related to crypto assets in Australia under the Corporations Act (2001) and the Australian Securities and Investments Commission Act (2001)</a>\n"
         ],
         "corporateGovernance": [
           "Partial",
-          "<p>Partial<br />\nThere are currently no corporate governance requirements for DASPs in Australia.<p>However, DASPs have to comply with disclosure and governance requirements under the AFS license if they are offering financial products<p>Source:<a target=\"_blank\"  href=\"https://asic.gov.au/for-finance-professionals/afs-licensees/afs-licensee-obligations/\" target=\"_blank\"> </a><br />1. <a target=\"_blank\"  href=\"https://asic.gov.au/for-finance-professionals/afs-licensees/afs-licensee-obligations/\" target=\"_blank\">Obligations of Australian Financial Services (AFS) Licensees</a><br />&nbsp;</p>\n"
+          "<p>There are currently no corporate governance requirements for DASPs in Australia.<p>However, DASPs have to comply with disclosure and governance requirements under the AFS license if they are offering financial products<p>Source:<a target=\"_blank\"  href=\"https://asic.gov.au/for-finance-professionals/afs-licensees/afs-licensee-obligations/\" target=\"_blank\"> </a><br />1. <a target=\"_blank\"  href=\"https://asic.gov.au/for-finance-professionals/afs-licensees/afs-licensee-obligations/\" target=\"_blank\">Obligations of Australian Financial Services (AFS) Licensees</a><br />&nbsp;</p>\n"
         ],
         "riskManagement": [
           "Partial",
@@ -100,19 +100,19 @@ setTimeout(()=>{
         ],
         "capitalControls": [
           "No",
-          "<p>Australia does not have a capital controls regime</p><br/>Source:<br/>1.<a target=\"_blank\"  href=\"https://www.bis.org/publ/cgfs33rba.pdf\">Bank of International Settlements </a>\n"
+          "<p>Australia does not have a capital controls regime</p><p>Source:<br/>1.<a target=\"_blank\"  href=\"https://www.bis.org/publ/cgfs33rba.pdf\">Bank of International Settlements </a>\n"
         ],
         "amlCft": [
           "Yes",
-          "<p>New laws for &quot;digital currency exchange&quot; (DCE) providers operating in Australia have been implemented by AUSTRAC, Australia&rsquo;s financial intelligence agency and anti-money laundering and counter-terrorism financing (AML/CTF) regulator.</p>\n<p>DCEs with a business operation located in Australia must register with AUSTRAC and meet the Government&rsquo;s AML/CTF compliance and reporting obligations.</p>\n<p>The Anti-Money Laundering and Counter-Terrorism Financing Act 2006 requires regulated entities to collect information to establish a customer&rsquo;s identity, monitor transactional activity, and report to AUSTRAC transactions or activity that is suspicious or involves large amounts of cash over $10,000.</p>\nSource(s):\n<p>1. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/new-australian-laws-regulate-cryptocurrency-providers\">Australia&rsquo;s financial intelligence agency&#39;s new laws for Digital currency exchange</a><br />2. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/business/how-comply-guidance-and-resources/amlctf-programs/amlctf-programs-overview\">Anti-Money Laundering and Counter-Terrorism Financing (AML/CTF) program overview</a></p>\n"
+          "<p>New laws for &quot;digital currency exchange&quot; (DCE) providers operating in Australia have been implemented by AUSTRAC, Australia&rsquo;s financial intelligence agency and anti-money laundering and counter-terrorism financing (AML/CTF) regulator.</p>\n<p>DCEs with a business operation located in Australia must register with AUSTRAC and meet the Government&rsquo;s AML/CTF compliance and reporting obligations.</p>\n<p>The Anti-Money Laundering and Counter-Terrorism Financing Act 2006 requires regulated entities to collect information to establish a customer&rsquo;s identity, monitor transactional activity, and report to AUSTRAC transactions or activity that is suspicious or involves large amounts of cash over $10,000.</p><p>Source(s):\n<br/>1. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/new-australian-laws-regulate-cryptocurrency-providers\">Australia&rsquo;s financial intelligence agency&#39;s new laws for Digital currency exchange</a><br />2. <a target=\"_blank\"  href=\"https://www.austrac.gov.au/business/how-comply-guidance-and-resources/amlctf-programs/amlctf-programs-overview\">Anti-Money Laundering and Counter-Terrorism Financing (AML/CTF) program overview</a>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
-          "<p>Investors in digital assets may have some recourse against deceptive or misleading conduct, but no specific dispute resolution or grievance redressal mechanism is prescribed by Australian Consumer Law</p>\n<p>ASIC has, however, indicated in its 2022-2026 Action Plan that the development of a regulatory framework for digital assets focus on consumer protection is a priority</p>\n<p>Source:</p>\n<p><a target=\"_blank\"  href=\"https://business.gov.au/legal/fair-trading/australian-consumer-law\">1. </a><a target=\"_blank\"  href=\"https://business.gov.au/legal/fair-trading/australian-consumer-law\">Australian Consumer Law</a><br />2. <a target=\"_blank\"  href=\"https://download.asic.gov.au/media/v3vhdqiw/asic-corporate-plan-2022-26-focus-2022-23-published-22-august-2022.pdf\">ASIC Corporate Action Plan 2022-2026</a></p>\n"
+          "<p>Investors in digital assets may have some recourse against deceptive or misleading conduct, but no specific dispute resolution or grievance redressal mechanism is prescribed by Australian Consumer Law</p>\n<p>ASIC has, however, indicated in its 2022-2026 Action Plan that the development of a regulatory framework for digital assets focus on consumer protection is a priority</p>Source:<br/>1. <a target=\"_blank\"  href=\"https://business.gov.au/legal/fair-trading/australian-consumer-law\">Australian Consumer Law</a><br />2. <a target=\"_blank\"  href=\"https://download.asic.gov.au/media/v3vhdqiw/asic-corporate-plan-2022-26-focus-2022-23-published-22-august-2022.pdf\">ASIC Corporate Action Plan 2022-2026</a>\n"
         ],
         "dataProtection": [
           "Partial - General Legislation",
-          "<p>There are currently no specific data protection or information security practices that specifically apply to DASPs in Australia, even though the country has a data protection regime in place (Privacy Act, 1988)</p>\n<p>Source:</p>\n<p>1.<a target=\"_blank\"  href=\"https://www.ag.gov.au/rights-and-protections/privacy\"> </a> <a target=\"_blank\"  href=\"https://www.ag.gov.au/rights-and-protections/privacy\">Privacy Act (1988) - Australia</a></p>\n"
+          "<p>There are currently no specific data protection or information security practices that specifically apply to DASPs in Australia, even though the country has a data protection regime in place (Privacy Act, 1988)</p><p>Source:\n<br/>1.<a target=\"_blank\"  href=\"https://www.ag.gov.au/rights-and-protections/privacy\"> </a> <a target=\"_blank\"  href=\"https://www.ag.gov.au/rights-and-protections/privacy\">Privacy Act (1988) - Australia</a>\n"
         ],
         "advertisingRegulations": [
           "Yes",
@@ -157,7 +157,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p>The Brazilian Internal Revenue Service has clarified, through rulings and Q&amp;As, that gains from digital assets are subject to capital gains tax, which ranges from 15% to 22.5%<br />\nCGT only applies where the total value of digital asset gains is more than 35,000 real. CGT is applicable even if there is no conversion into fiat currency<p>Source:<a target=\"_blank\"  href=\"http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=122341\" target=\"_blank\"> </a><br />1. <a target=\"_blank\"  href=\"http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=122341\" target=\"_blank\">Individual Income Tax on Digital Assets in Brazil</a></p>\n"
+          "<p>The Brazilian Internal Revenue Service has clarified, through rulings and Q&amp;As, that gains from digital assets are subject to capital gains tax, which ranges from 15% to 22.5%.\n<p>CGT only applies where the total value of digital asset gains is more than 35,000 real. CGT is applicable even if there is no conversion into fiat currency</p><p>Source:<br />1. <a target=\"_blank\"  href=\"http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=122341\" target=\"_blank\">Individual Income Tax on Digital Assets in Brazil</a></p>\n"
         ],
         "capitalControls": [
           "No",
@@ -177,7 +177,7 @@ setTimeout(()=>{
         ],
         "advertisingRegulations": [
           "No",
-          "<p>Regulation on digital asset related ads does not exist currently. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/151264\" target=\"_blank\">Art 5 House Law No. 4401/2021</a></p>\n"
+          "<p>Regulation on digital asset related ads does not exist currently.</p>"
         ],
         "consumerAwareness": [
           "No",
@@ -198,7 +198,7 @@ setTimeout(()=>{
         "countryName": "Canada",
         "legalStatus": [
           "Legal",
-          "<p>The use of digital assets for investments, payment, trading and sale is legal in Canada</p>\n<p>Source(s): <a target=\"_blank\"  href=\"https://www.canada.ca/en/financial-consumer-agency/services/payment/digital-currency.html\">1. </a><a target=\"_blank\"  href=\"https://www.canada.ca/en/financial-consumer-agency/services/payment/digital-currency.html\">Government of Canada</a></p>\n"
+          "<p>The use of digital assets for investments, payment, trading and sale is legal in Canada</p>\n<p>Source: <br/>1. <a target=\"_blank\"  href=\"https://www.canada.ca/en/financial-consumer-agency/services/payment/digital-currency.html\">Government of Canada</a></p>\n"
         ],
         "classification": [
           "Yes",
@@ -218,7 +218,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p>&nbsp;</p>\n<p><strong>Business Income, Capital Gains and Value Added Tax</strong><p>The Canadian Revenue Agency (CRA) generally treats digital assets like a commodity for purposes of the Income Tax Act. Any income from transactions involving digital assets is generally treated as business income or as a capital gain, depending on the circumstances. Similarly, if earnings qualify as business income or as a capital gain then any losses are treated as business losses or capital losses.</p>\n<p>Canada uses personal income tax rates for capital gains as well. In Canada, taxation is done at both the federal and the provincial level. The federal tax rates of 2022 were:&nbsp;<br />\n15% for the first $50,197 of taxable income<br />\n20.5% for $50,197 - $100,392<br />\n26% for $100,392 - $155,625<br />\n29% for $155,625 - $221,708<br />\n33% for $221,708+</p>\n<p>The various provinces of Canada have their own tax brackets.&nbsp;<br />\n&nbsp;<br />\n&nbsp;Source(s):<br />\n1. <a target=\"_blank\"  href=\"https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/digital-currency/cryptocurrency-guide.html\">Guide for cryptocurrency users and tax professionals</a></p>\n"
+          "<p><strong>Business Income, Capital Gains and Value Added Tax</strong><p>The Canadian Revenue Agency (CRA) generally treats digital assets like a commodity for purposes of the Income Tax Act. Any income from transactions involving digital assets is generally treated as business income or as a capital gain, depending on the circumstances. Similarly, if earnings qualify as business income or as a capital gain then any losses are treated as business losses or capital losses.</p>\n<p>Canada uses personal income tax rates for capital gains as well. In Canada, taxation is done at both the federal and the provincial level. The federal tax rates of 2022 were:&nbsp;<br />\n15% for the first $50,197 of taxable income<br />\n20.5% for $50,197 - $100,392<br />\n26% for $100,392 - $155,625<br />\n29% for $155,625 - $221,708<br />\n33% for $221,708+</p>\n<p>The various provinces of Canada have their own tax brackets.</p><p>Source(s):<br />\n1. <a target=\"_blank\"  href=\"https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/digital-currency/cryptocurrency-guide.html\">Guide for cryptocurrency users and tax professionals</a>\n"
         ],
         "capitalControls": [
           "No",
@@ -238,7 +238,7 @@ setTimeout(()=>{
         ],
         "advertisingRegulations": [
           "Yes",
-          "<p>A number of provisions in securities legislation and Investment Industry Regulatory Organization of Canada rules apply to prohibit false or misleading statements in advertising or marketing materials used by DASPs</p>\n<p>Source(s): 1. <a target=\"_blank\"  href=\"https://www.osc.ca/sites/default/files/2021-09/csa_20210923_21-330_crypto-trading-platforms.pdf\">CSA Staff Notice 21-330</a></p>\n"
+          "<p>A number of provisions in securities legislation and Investment Industry Regulatory Organization of Canada rules apply to prohibit false or misleading statements in advertising or marketing materials used by DASPs</p><p>Source(s):<br/> 1. <a target=\"_blank\"  href=\"https://www.osc.ca/sites/default/files/2021-09/csa_20210923_21-330_crypto-trading-platforms.pdf\">CSA Staff Notice 21-330</a>\n"
         ],
         "consumerAwareness": [
           "Yes",
@@ -259,11 +259,11 @@ setTimeout(()=>{
         "countryName": "China",
         "legalStatus": [
           "General Ban",
-          "<p>Issuing, minting, trading and exchanging digital assets is outlawed in China. It is also illegal to offer services, such as account opening and fiat conversion, related to digital assets to Chinese residents<br />\nHowever, the holding of a digital asset itself is not illegal. The private exchange of digital assets may also not be illegal.<br />\nFurthermore, providing blockchain-based information services is legal as long as they are not used to offer speculative trading on digital assets.<p>Source: <br />1. <a target=\"_blank\"  href=\"https://www.theguardian.com/technology/2013/dec/05/bitcoin-price-tumbles-chinese-central-bank-warning\">Guardian</a><br />2. <a target=\"_blank\"  href=\"https://www.ndrc.gov.cn/xwdt/tzgg/202109/t20210924_1297475.html?code=&amp;state=123\">Announcement banning ICOs 2017 by PBC and 6 other regulators and ministries</a><br />3. <a target=\"_blank\"  href=\"https://www.ndrc.gov.cn/xwdt/tzgg/202109/t20210924_1297475.html?code=&amp;state=123\">2021 National Development and Reform Commission Mining Circular</a><br />4. <a target=\"_blank\"  href=\"https://digichina.stanford.edu/work/translation-blockchain-information-service-management-regulations-2019/\">2019 Cyberspace Administration of China Blockchain-Based Information Service Management Regulations</a><br />5. <a target=\"_blank\"  href=\"https://conventuslaw.com/report/china-circular-on-the-further-prevention-and/\">Circular Number 237 on Further Prevention and Handling of the Speculation Risk in Virtual Currency Trading 2021</a><br />&nbsp;</p>\n"
+          "<p>Issuing, minting, trading and exchanging digital assets is outlawed in China. It is also illegal to offer services, such as account opening and fiat conversion, related to digital assets to Chinese residents.<p>However, the holding of a digital asset itself is not illegal. The private exchange of digital assets may also not be illegal.</p>\nFurthermore, providing blockchain-based information services is legal as long as they are not used to offer speculative trading on digital assets.<p>Source: <br />1. <a target=\"_blank\"  href=\"https://www.theguardian.com/technology/2013/dec/05/bitcoin-price-tumbles-chinese-central-bank-warning\">Guardian</a><br />2. <a target=\"_blank\"  href=\"https://www.ndrc.gov.cn/xwdt/tzgg/202109/t20210924_1297475.html?code=&amp;state=123\">Announcement banning ICOs 2017 by PBC and 6 other regulators and ministries</a><br />3. <a target=\"_blank\"  href=\"https://www.ndrc.gov.cn/xwdt/tzgg/202109/t20210924_1297475.html?code=&amp;state=123\">2021 National Development and Reform Commission Mining Circular</a><br />4. <a target=\"_blank\"  href=\"https://digichina.stanford.edu/work/translation-blockchain-information-service-management-regulations-2019/\">2019 Cyberspace Administration of China Blockchain-Based Information Service Management Regulations</a><br />5. <a target=\"_blank\"  href=\"https://conventuslaw.com/report/china-circular-on-the-further-prevention-and/\">Circular Number 237 on Further Prevention and Handling of the Speculation Risk in Virtual Currency Trading 2021</a><br />&nbsp;</p>\n"
         ],
         "classification": [
           "No",
-          "<p>&nbsp;</p>\n<p>No legal instrument specifically classifies digital assets as securities, commodities or creates a sui-generis class for their regulation.</p>\n"
+          "<p>No legal instrument specifically classifies digital assets as securities, commodities or creates a sui-generis class for their regulation.</p>\n"
         ],
         "licensing": [
           "No",
@@ -283,7 +283,7 @@ setTimeout(()=>{
         ],
         "capitalControls": [
           "No",
-          "<p>As cross-border exchanges of digital assets are illegal in China, no digital asset specific capital controls have been implemented.<br />\nHowever, before trading/exchanging/issuing digital assets was illegal, Chinese authorities perceived it to be a key mechanism to evade capital controls.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.scmp.com/economy/china-economy/article/3098981/cryptocurrencies-help-chinese-evade-capital-and-currency\" target=\"_blank\">South China Morning Post </a></p>\n"
+          "<p>As cross-border exchanges of digital assets are illegal in China, no digital asset specific capital controls have been implemented.<p>However, before trading/exchanging/issuing digital assets was illegal, Chinese authorities perceived it to be a key mechanism to evade capital controls.</p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.scmp.com/economy/china-economy/article/3098981/cryptocurrencies-help-chinese-evade-capital-and-currency\" target=\"_blank\">South China Morning Post </a>\n"
         ],
         "amlCft": [
           "No",
@@ -295,7 +295,7 @@ setTimeout(()=>{
         ],
         "dataProtection": [
           "No",
-          "<p>No specific requirements for DASPs.<br />\nBISPs are required to implement security management solutions as prescribed by relevant Cyber Security legislation<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://digichina.stanford.edu/work/translation-blockchain-information-service-management-regulations-2019/\" target=\"_blank\">2019 Cyberspace Administration of China Blockchain-Based Information Service Management Regulations </a></p>\n"
+          "<p>No specific requirements for DASPs.</p>\nBISPs are required to implement security management solutions as prescribed by relevant Cyber Security legislation<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://digichina.stanford.edu/work/translation-blockchain-information-service-management-regulations-2019/\" target=\"_blank\">2019 Cyberspace Administration of China Blockchain-Based Information Service Management Regulations </a></p>\n"
         ],
         "advertisingRegulations": [
           "Yes",
@@ -340,7 +340,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Income Tax and VAT</strong></p>\n<p>Capital gains on digital assets that are realised as a part of individuals&#39; private asset management are taxable at a flat rate of 30%. If trade in digital assets happens on a regular basis by professional investors, gains may be subject to the progressive income tax rate in the category of non-industrial and commercial profits. ICOs are subject to VAT only when the issued tokens are used by their holders.</p>\n<p>Source:</p>\n<p>1. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038612228/\">Article 150 VH bis of the General Tax code</a><br />2. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044637640?init=true&amp;page=1&amp;query=LOI+n%C2%B0+2021-1900+du+30+d%C3%A9cembre+2021+de+finances+pour+2022&amp;searchField=ALL&amp;tab_selection=all\">General conditions of Financial Equilibrium (Articles 1 to 56)</a><a target=\"_blank\"  href=\"https://bofip.impots.gouv.fr/bofip/11971-PGP.html/identifiant%3DBOI-RES-000054-20190807\"> </a><br /><a target=\"_blank\"  href=\"https://bofip.impots.gouv.fr/bofip/11971-PGP.html/identifiant%3DBOI-RES-000054-20190807\">3. Subjecting of ICOs to value added tax</a></p>\n"
+          "<p><strong>Income Tax and VAT</strong></p><p>Capital gains on digital assets that are realised as a part of individuals&#39; private asset management are taxable at a flat rate of 30%. If trade in digital assets happens on a regular basis by professional investors, gains may be subject to the progressive income tax rate in the category of non-industrial and commercial profits. ICOs are subject to VAT only when the issued tokens are used by their holders.</p><p>Source:<br/>\n1. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038612228/\">Article 150 VH bis of the General Tax code</a><br />2. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044637640?init=true&amp;page=1&amp;query=LOI+n%C2%B0+2021-1900+du+30+d%C3%A9cembre+2021+de+finances+pour+2022&amp;searchField=ALL&amp;tab_selection=all\">General conditions of Financial Equilibrium (Articles 1 to 56)</a><a target=\"_blank\"  href=\"https://bofip.impots.gouv.fr/bofip/11971-PGP.html/identifiant%3DBOI-RES-000054-20190807\"> </a><br /><a target=\"_blank\"  href=\"https://bofip.impots.gouv.fr/bofip/11971-PGP.html/identifiant%3DBOI-RES-000054-20190807\">3. Subjecting of ICOs to value added tax</a>\n"
         ],
         "capitalControls": [
           "No",
@@ -348,7 +348,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>Ordinance 2020-1544 expands the AML/CFT obligations applicable to DASPs and requires them to record data on all transactions, even below the FATF&#39;s $1000 threshold. Notably, details on transfers that do not involve digital assets must also be recorded.</p>\n<p>Source:</p>\n<p>1. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042636234\">AMF</a></p>\n"
+          "<p>Ordinance 2020-1544 expands the AML/CFT obligations applicable to DASPs and requires them to record data on all transactions, even below the FATF&#39;s $1000 threshold. Notably, details on transfers that do not involve digital assets must also be recorded.</p><p>Source:<br/>\n1. <a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042636234\">AMF</a>\n"
         ],
         "grievanceRedressal": [
           "Yes",
@@ -372,7 +372,7 @@ setTimeout(()=>{
         ],
         "restrictions": [
           "Yes",
-          "<p>Only ICOs that have obtained approval from the AMF can market/promote themselves to French citizens. France has also banned privacy coins.</p>\n<p>Source: 1. <a target=\"_blank\"  href=\"https://www.google.com/url?q=https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/amf-grants-its-first-optional-approval-inital-coin-offering-ico&amp;sa=D&amp;source=editors&amp;ust=1678731057712273&amp;usg=AOvVaw0I1GLh-Rd4NRNnqQXlxNTd\">AMF</a></p>\n"
+          "<p>Only ICOs that have obtained approval from the AMF can market/promote themselves to French citizens. France has also banned privacy coins.</p>\n<p>Source:<br/> 1. <a target=\"_blank\"  href=\"https://www.google.com/url?q=https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/amf-grants-its-first-optional-approval-inital-coin-offering-ico&amp;sa=D&amp;source=editors&amp;ust=1678731057712273&amp;usg=AOvVaw0I1GLh-Rd4NRNnqQXlxNTd\">AMF</a></p>\n"
         ],
         "lat": "48.8566",
         "lang": "2.3522"
@@ -389,7 +389,7 @@ setTimeout(()=>{
         ],
         "licensing": [
           "Yes",
-          "<p>Providers of digital asset must generally obtain a license from the Federal Financial Supervisory Authority (BaFIN).<br />\nLicensing requirements also apply to providers of digital asset custody services and security registers. Depending on how the digital assets are classified, licensing requirements under securities and payments law may be also be applicable<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Merkblatt/BA/mb_Hinweise_zum_Erlaubnisantrag_fuer_das_Kryptoverwahrgeschaeft_en.html\" target=\"_blank\">Guidelines on applications for Authorization for crypto custody business - BaFIN</a></p>\n"
+          "<p>Providers of digital asset must generally obtain a license from the Federal Financial Supervisory Authority (BaFIN).<p>\nLicensing requirements also apply to providers of digital asset custody services and security registers. Depending on how the digital assets are classified, licensing requirements under securities and payments law may be also be applicable</p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Merkblatt/BA/mb_Hinweise_zum_Erlaubnisantrag_fuer_das_Kryptoverwahrgeschaeft_en.html\" target=\"_blank\">Guidelines on applications for Authorization for crypto custody business - BaFIN</a>\n"
         ],
         "corporateGovernance": [
           "Yes",
@@ -409,7 +409,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>DASPs must capture and provide relevant AML information to BaFIN as Germany has incorporated EU AML Directive 5 into local legislation. AMLD5 is a recent iteration of the EU Anti-Money Laundering provisions that bring digital assets within the scope of reporting and KYC requirements.<br />\nThey must also implement robust KYC mechanisms<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://dip.bundestag.de/vorgang/.../251728\" target=\"_blank\">Law in Germany to implement the amendment directive to the Fourth EU Money Laundering Directive</a></p>\n"
+          "<p>DASPs must capture and provide relevant AML information to BaFIN as Germany has incorporated EU AML Directive 5 into local legislation. AMLD5 is a recent iteration of the EU Anti-Money Laundering provisions that bring digital assets within the scope of reporting and KYC requirements.<p>\nThey must also implement robust KYC mechanisms</p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://dip.bundestag.de/vorgang/.../251728\" target=\"_blank\">Law in Germany to implement the amendment directive to the Fourth EU Money Laundering Directive</a>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -450,7 +450,7 @@ setTimeout(()=>{
         ],
         "licensing": [
           "No",
-          "<p>There is no specific licensing regime for DASPs. The Companies Act requires all companies to declare their digital asset holdings<p>Source:<p>1. <a target=\"_blank\"  href=\"https://www.mca.gov.in/Ministry/pdf/ScheduleIIIAmendmentNotification_24032021.pdf\" target=\"_blank\">Amendment to Schedule III of Companies Act, 2013</a></p>\n"
+          "<p>There is no specific licensing regime for DASPs. The Companies Act requires all companies to declare their digital asset holdings<p>Source:<br/>1. <a target=\"_blank\"  href=\"https://www.mca.gov.in/Ministry/pdf/ScheduleIIIAmendmentNotification_24032021.pdf\" target=\"_blank\">Amendment to Schedule III of Companies Act, 2013</a></p>\n"
         ],
         "corporateGovernance": [
           "No",
@@ -462,7 +462,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Income Tax</strong></p>\n<p>A new section 115BBH has been inserted in the Act to provide a tax of 30% on income from &quot;virtual digital assets&quot;. A 1% TDS is also applicable on all digital asset transactions.<br /><br/>\nSource(s);<br />1. <a target=\"_blank\"  href=\"https://incometaxindia.gov.in/news/circular-23-2022.pdf\" target=\"_blank\">Circular by the Central Board of Direct Taxes inserting section 115 BBH to the Finance Act, 2022</a><br />2. <a target=\"_blank\"  href=\"https://www.forbes.com/advisor/in/investing/cryptocurrency/cryptocurrency-tax-in-india/\" target=\"_blank\">Forbes</a></p>\n"
+          "<p><strong>Income Tax</strong></p>\n<p>A new section 115BBH has been inserted in the Act to provide a tax of 30% on income from &quot;virtual digital assets&quot;. A 1% TDS is also applicable on all digital asset transactions.<br /><br/><p>Source(s);<br />1. <a target=\"_blank\"  href=\"https://incometaxindia.gov.in/news/circular-23-2022.pdf\" target=\"_blank\">Circular by the Central Board of Direct Taxes inserting section 115 BBH to the Finance Act, 2022</a><br />2. <a target=\"_blank\"  href=\"https://www.forbes.com/advisor/in/investing/cryptocurrency/cryptocurrency-tax-in-india/\" target=\"_blank\">Forbes</a></p>\n"
         ],
         "capitalControls": [
           "No",
@@ -523,15 +523,15 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p>Since digital assets are treated as commodities, VAT and capital gains at the rate of 0.1%.<br />\nSource: <br />1. <a target=\"_blank\"  href=\"http://www.reuters.com/business/finance/indonesia-impose-vat-income-tax-crypto-assets-may-2022-04-01/\">Reuters</a></p>\n"
+          "<p>Since digital assets are treated as commodities, VAT and capital gains at the rate of 0.1%.<p><p>Source: <br />1. <a target=\"_blank\"  href=\"http://www.reuters.com/business/finance/indonesia-impose-vat-income-tax-crypto-assets-may-2022-04-01/\">Reuters</a></p>\n"
         ],
         "capitalControls": [
           "No",
-          "<p>Indonesia implements some restrictions on the flow of capital across borders. However, these do not appear to have been extended to digital assets</p><br />\nSource: <br />1. <a target=\"_blank\"  href=\"http://www.gbgindonesia.com/en/main/legal_updates/foreign_investment_restrictions.php\">Global Business Guide</a></p>"
+          "<p>Indonesia implements some restrictions on the flow of capital across borders. However, these do not appear to have been extended to digital assets</p><br /><p>Source: <br />1. <a target=\"_blank\"  href=\"http://www.gbgindonesia.com/en/main/legal_updates/foreign_investment_restrictions.php\">Global Business Guide</a></p>"
         ],
         "amlCft": [
           "Yes",
-          "<p>Digital assets are only approved for trading after the BAPPEBTI studies the AML/CFT risk posed by each.<br />\nRegulations require brokers, exchanges and clearing houses to adopt mechanisms to check AML/CFT and implement detailed KYC procedures<p>Exchanges also must report any suspicious transactions to the BAPPEBTI<p>Source:<br />1. <a target=\"_blank\"  href=\"https://bappebti.go.id/pbk/sk_kep_kepala_bappebti/detail/6655\" target=\"_blank\"> BAPPEBTI Regulations 7/2020</a><br/>2. <a target=\"_blank\"  href=\"https://bappebti.go.id/resources/docs/peraturan/sk_kep_kepala_bappebti/sk_kep_kepala_bappebti_2019_02_01_w9i365pf_id.pdf\" target=\"_blank\"> BAPPEBTI Regulation 5/2019</a><br/>3. <a target=\"_blank\"  href=\"https://bappebti.go.id/pbk/sk_kep_kepala_bappebti/detail/8952\" target=\"_blank\"> BAPPEBTI Regulation 8/2021 </a><br />&nbsp;</p>\n"
+          "<p>Digital assets are only approved for trading after the BAPPEBTI studies the AML/CFT risk posed by each.</p><p>Regulations require brokers, exchanges and clearing houses to adopt mechanisms to check AML/CFT and implement detailed KYC procedures</p><p>Exchanges also must report any suspicious transactions to the BAPPEBTI</p><p>Source:<br />1. <a target=\"_blank\"  href=\"https://bappebti.go.id/pbk/sk_kep_kepala_bappebti/detail/6655\" target=\"_blank\"> BAPPEBTI Regulations 7/2020</a><br/>2. <a target=\"_blank\"  href=\"https://bappebti.go.id/resources/docs/peraturan/sk_kep_kepala_bappebti/sk_kep_kepala_bappebti_2019_02_01_w9i365pf_id.pdf\" target=\"_blank\"> BAPPEBTI Regulation 5/2019</a><br/>3. <a target=\"_blank\"  href=\"https://bappebti.go.id/pbk/sk_kep_kepala_bappebti/detail/8952\" target=\"_blank\"> BAPPEBTI Regulation 8/2021 </a><br />&nbsp;</p>\n"
         ],
         "grievanceRedressal": [
           "Yes",
@@ -555,7 +555,7 @@ setTimeout(()=>{
         ],
         "restrictions": [
           "Yes",
-          "<p>Digital assets cannot be used as a means for payment as per the Currency Law of 2011.<br />\nFinancial service institutions are also barred from using, marketing and facilitating digital asset trading.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://siplawfirm.id/cryptocurrency-in-indonesia/\" target=\"_blank\">SIP Law</a></p>\n"
+          "<p>Digital assets cannot be used as a means for payment as per the Currency Law of 2011.<p>Financial service institutions are also barred from using, marketing and facilitating digital asset trading.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://siplawfirm.id/cryptocurrency-in-indonesia/\" target=\"_blank\">SIP Law</a></p>\n"
         ],
         "lat": "-6.1751",
         "lang": "106.865"
@@ -564,7 +564,7 @@ setTimeout(()=>{
         "countryName": "Italy",
         "legalStatus": [
           "Legal",
-          "<p>While digital assets are not specifically regulated, they have not been prohibited by Italian legislation.<br />\nRules for AML/CFT compliance have been enacted.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://content.next.westlaw.com/Glossary/UKPracticalLaw/If252ef1bd7eb11ec9f24ec7b211d8087?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\" target=\"_blank\">Legislative Decree No. 125/2019 </a><br />2. <a target=\"_blank\"  href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/italy\" target=\"_blank\">Global Legal Insights </a><br />3.<a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\"> </a><a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\">Italian Central Bank Communication 202</a>2</p>\n"
+          "<p>While digital assets are not specifically regulated, they have not been prohibited by Italian legislation.<p>Rules for AML/CFT compliance have been enacted.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://content.next.westlaw.com/Glossary/UKPracticalLaw/If252ef1bd7eb11ec9f24ec7b211d8087?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\" target=\"_blank\">Legislative Decree No. 125/2019 </a><br />2. <a target=\"_blank\"  href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/italy\" target=\"_blank\">Global Legal Insights </a><br />3.<a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\"> </a><a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\">Italian Central Bank Communication 202</a>2</p>\n"
         ],
         "classification": [
           "No",
@@ -596,7 +596,7 @@ setTimeout(()=>{
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
-          "<p>There are no specific obligations for DASPs under Italian law.<br />\nHowever, it has ratified the EU Omnibus Directive, which reforms consumer law and provides consumers with new avenues of recourse<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.roedl.com/insights/italy-consumer-protection-omnibus-directive-gdpr-eu-parliament\" target=\"_blank\">Rodl and Partners on Italy's new rules on Consumer Protection </a></p>\n"
+          "<p>There are no specific obligations for DASPs under Italian law.<p>\nHowever, it has ratified the EU Omnibus Directive, which reforms consumer law and provides consumers with new avenues of recourse</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.roedl.com/insights/italy-consumer-protection-omnibus-directive-gdpr-eu-parliament\" target=\"_blank\">Rodl and Partners on Italy's new rules on Consumer Protection </a></p>\n"
         ],
         "dataProtection": [
           "Partial",
@@ -604,7 +604,7 @@ setTimeout(()=>{
         ],
         "advertisingRegulations": [
           "Partial",
-          "<p>There are no rules or guidelines regarding the advertisement and marketing of digital assets.<br />\nHowever, the Central Bank has warned users to pay specific attention to misleading advertisements related to digital assets<p>Source: <br /> <a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\"> </a><br />1. <a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\">Banca d&rsquo;Italia&#39;s communication on Decentralized Technology in Finance and Crypto-assets</a></p>\n"
+          "<p>There are no rules or guidelines regarding the advertisement and marketing of digital assets.<p>However, the Central Bank has warned users to pay specific attention to misleading advertisements related to digital assets</p><p>Source: <br />1. <a target=\"_blank\"  href=\"https://www.bancaditalia.it/media/approfondimenti/2022/cripto/en-Comunicazioni-della-Banca-d-Italia-DLT-cripto.pdf?language_id=1\" target=\"_blank\">Banca d&rsquo;Italia&#39;s communication on Decentralized Technology in Finance and Crypto-assets</a></p>\n"
         ],
         "consumerAwareness": [
           "Partial",
@@ -625,7 +625,7 @@ setTimeout(()=>{
         "countryName": "Japan",
         "legalStatus": [
           "Legal",
-          "<p>Cryptocurrency and utility tokens such as BTC &amp; ETH are regulated as digital assets under the Payment Services Act (PSA).<br />\nHowever, tokens that meet the requirements of security are regulated under the Financial Instruments and Exchange Act (FIEA).<br />\nIssuance of stablecoins is regulated under the Banking Act and the Trust Business Act.<p>Source:<br />\n<a target=\"_blank\"  href=\"https://www.japaneselawtranslation.go.jp/en/laws/view/3078/en\" target=\"_blank\">1. </a><a target=\"_blank\"  href=\"https://www.japaneselawtranslation.go.jp/en/laws/view/3078/en\" target=\"_blank\">Payment Services </a>Act (Chapter III-2)<br />\n2<a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">.</a> <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
+          "<p>Cryptocurrency and utility tokens such as BTC &amp; ETH are regulated as digital assets under the Payment Services Act (PSA).<p>However, tokens that meet the requirements of security are regulated under the Financial Instruments and Exchange Act (FIEA).</p><p>Issuance of stablecoins is regulated under the Banking Act and the Trust Business Act.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.japaneselawtranslation.go.jp/en/laws/view/3078/en\" target=\"_blank\">Payment Services Act (Chapter III-2)</a><br />\n2. <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
         ],
         "classification": [
           "Yes",
@@ -677,7 +677,7 @@ setTimeout(()=>{
         ],
         "restrictions": [
           "Yes",
-          "<p>Yes<p>Restrictions are placed on the issuance of stablecoins. Only bank, fund transfer service providers and trust companies are allowed to issue stablecoins to Japanese citizens.<p>Japan has banned the use of all digital assets that provide a sufficient degree of anonymity, inclusing Monero, Dash and ZCash.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\">Financial Services Agency Japan - Regulating Crypto Assets</a><br />2. <a target=\"_blank\"  href=\"https://www.coindesk.com/markets/2018/05/29/japans-ban-is-a-wake-up-call-to-defend-privacy-coins/\">Coindesk</a></p>\n"
+          "<p>Restrictions are placed on the issuance of stablecoins. Only bank, fund transfer service providers and trust companies are allowed to issue stablecoins to Japanese citizens.<p>Japan has banned the use of all digital assets that provide a sufficient degree of anonymity, inclusing Monero, Dash and ZCash.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\">Financial Services Agency Japan - Regulating Crypto Assets</a><br />2. <a target=\"_blank\"  href=\"https://www.coindesk.com/markets/2018/05/29/japans-ban-is-a-wake-up-call-to-defend-privacy-coins/\">Coindesk</a></p>\n"
         ],
         "lat": "35.6762",
         "lang": "139.6503"
@@ -694,7 +694,7 @@ setTimeout(()=>{
         ],
         "licensing": [
           "No",
-          "<p>There is no specific license for non-financial entities that provide digital asset-related services.<br />\nHowever, companies providing a facility to convert digital assets into fiat must register themselves as Electronic Payment Fund Institutions and comply with provisions of the FinTech law.<br />\nWhile financial institutions, specifically credit institutions, financial technology institutions, payment fund institutions, and collective financing institutions, were initially permitted to use digital assets for certain services, the Central Bank has stated that such assets should be kept away from the nation&#39;s financial system.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www2.deloitte.com/content/dam/Deloitte/mx/Documents/legal/2019/General-Provisions-Applicable-Institutions-of-Financial-Technology.pdf\">Deloitte</a><br />2. <a target=\"_blank\"  href=\"https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-4-2019/%7BACDFD34F-1226-1893-52EE-D87A28645384%7D.pdf\">Regulation 4/2019</a></p>\n"
+          "<p>There is no specific license for non-financial entities that provide digital asset-related services.<p>However, companies providing a facility to convert digital assets into fiat must register themselves as Electronic Payment Fund Institutions and comply with provisions of the FinTech law.</p><p>While financial institutions, specifically credit institutions, financial technology institutions, payment fund institutions, and collective financing institutions, were initially permitted to use digital assets for certain services, the Central Bank has stated that such assets should be kept away from the nation&#39;s financial system.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www2.deloitte.com/content/dam/Deloitte/mx/Documents/legal/2019/General-Provisions-Applicable-Institutions-of-Financial-Technology.pdf\">Deloitte</a><br />2. <a target=\"_blank\"  href=\"https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-4-2019/%7BACDFD34F-1226-1893-52EE-D87A28645384%7D.pdf\">Regulation 4/2019</a></p>\n"
         ],
         "corporateGovernance": [
           "No",
@@ -808,7 +808,7 @@ setTimeout(()=>{
         "countryName": "Saudia Arabia",
         "legalStatus": [
           "Legal",
-          "<p>Legal<p>Holding, trading, and investing in digital assets is legal in Saudi Arabia. However, the Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market has banned financial institutions from dealing in or with digital assets.<p><p>Source: <br /> 1. <a target=\"_blank\"  href=\"https://www.sama.gov.sa/en-US/News/Pages/news12082018.aspx\">Joint-statement by Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market 2018</a><br />2. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/fintech-laws-and-regulations/saudi-arabia\">International Comparative Legal Guide</a><br />3. <a target=\"_blank\"  href=\"https://www.lexology.com/library/detail.aspx?g=2bca5d91-7961-4b6d-9de9-93cd47e1fe0b\">Lexology</a></p>\n"
+          "<p>Holding, trading, and investing in digital assets is legal in Saudi Arabia. However, the Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market has banned financial institutions from dealing in or with digital assets.<p><p>Source: <br /> 1. <a target=\"_blank\"  href=\"https://www.sama.gov.sa/en-US/News/Pages/news12082018.aspx\">Joint-statement by Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market 2018</a><br />2. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/fintech-laws-and-regulations/saudi-arabia\">International Comparative Legal Guide</a><br />3. <a target=\"_blank\"  href=\"https://www.lexology.com/library/detail.aspx?g=2bca5d91-7961-4b6d-9de9-93cd47e1fe0b\">Lexology</a></p>\n"
         ],
         "classification": [
           "No",
@@ -893,7 +893,7 @@ setTimeout(()=>{
         ],
         "capitalControls": [
           "Proposed",
-          "<p>Proposed<p>South Africa controls the flow of foreign exchange and assets cross border.<p>A Government working group has recently recommended the inclusion of crypto-assets under the Exchange Control Regulations. The implementation of this recommendation would allow authorised dealers to send digital assets across borders provided they adhere to reporting requirements<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.treasury.gov.za/comm_media/press/2019/CAR%20WG%20Consultation%20paper%20on%20crypto%20assets_final.pdf\" target=\"_blank\">CARWG Consultation Paper </a><a target=\"_blank\"  href=\"https://www.treasury.gov.za/comm_media/press/2019/CAR%20WG%20Consultation%20paper%20on%20crypto%20assets_final.pdf\" target=\"_blank\"> </a></p>\n"
+          "<p>South Africa controls the flow of foreign exchange and assets cross border.<p>A Government working group has recently recommended the inclusion of crypto-assets under the Exchange Control Regulations. The implementation of this recommendation would allow authorised dealers to send digital assets across borders provided they adhere to reporting requirements<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.treasury.gov.za/comm_media/press/2019/CAR%20WG%20Consultation%20paper%20on%20crypto%20assets_final.pdf\" target=\"_blank\">CARWG Consultation Paper </a><a target=\"_blank\"  href=\"https://www.treasury.gov.za/comm_media/press/2019/CAR%20WG%20Consultation%20paper%20on%20crypto%20assets_final.pdf\" target=\"_blank\"> </a></p>\n"
         ],
         "amlCft": [
           "Yes",
@@ -942,7 +942,7 @@ setTimeout(()=>{
         ],
         "corporateGovernance": [
           "Yes",
-          "<p>The Korean Blockchain Association has introduced a self-regulatory code that covers aspects including organisational transparency and insider trading.<br />\nThe Korean Blockchain Association and its self-regulatory code have not been specifically approved or endorsed by South Korean financial regulators.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/korean-blockchain-association-reveals-self-regulatory-rules-for-14-member-exchanges\">Self Regulatory Rules - Korean Blockchain Association</a><a target=\"_blank\"  href=\"https://cointelegraph.com/news/korean-blockchain-association-reveals-self-regulatory-rules-for-14-member-exchanges\" target=\"_blank\"> </a><br />&nbsp;</p>\n"
+          "<p>The Korean Blockchain Association has introduced a self-regulatory code that covers aspects including organisational transparency and insider trading.<p>The Korean Blockchain Association and its self-regulatory code have not been specifically approved or endorsed by South Korean financial regulators</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/korean-blockchain-association-reveals-self-regulatory-rules-for-14-member-exchanges\">Self Regulatory Rules - Korean Blockchain Association</a><a target=\"_blank\"  href=\"https://cointelegraph.com/news/korean-blockchain-association-reveals-self-regulatory-rules-for-14-member-exchanges\" target=\"_blank\"> </a><br />&nbsp;</p>\n"
         ],
         "riskManagement": [
           "Yes",
@@ -991,7 +991,7 @@ setTimeout(()=>{
         "countryName": "Turkey",
         "legalStatus": [
           "Legal",
-          "<p>Digital assets are legal.<br />\nA comprehensive regulatory framework for digital assets has been proposed. However, the framework legislation has so far not been introduced in Parliament.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/turkey-trkiye\">Global Legal Insights</a><br />2. <a target=\"_blank\"  href=\"https://www.tcmb.gov.tr/wps/wcm/connect/c241af16-e730-45b5-bb0d-31d3af28884e/Regulation+on+the+Disuse+of+Crypto+Assets+in+Payments.pdf?MOD=AJPERES\">Regulation on the DIsuse of Crypto in Payments</a></p>\n"
+          "<p>Digital assets are legal.<p>A comprehensive regulatory framework for digital assets has been proposed. However, the framework legislation has so far not been introduced in Parliament.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.globallegalinsights.com/practice-areas/blockchain-laws-and-regulations/turkey-trkiye\">Global Legal Insights</a><br />2. <a target=\"_blank\"  href=\"https://www.tcmb.gov.tr/wps/wcm/connect/c241af16-e730-45b5-bb0d-31d3af28884e/Regulation+on+the+Disuse+of+Crypto+Assets+in+Payments.pdf?MOD=AJPERES\">Regulation on the DIsuse of Crypto in Payments</a></p>\n"
         ],
         "classification": [
           "No",
@@ -1174,7 +1174,7 @@ setTimeout(()=>{
         "countryName": "European Union",
         "legalStatus": [
           "Legal",
-          "<p>Digital assets are not specifically regulated at the moment, though regulations in terms of money laundering and privacy do apply. Anti Money Laundering Directive 5 (AMLD5) was passed in 2018 and brings DASPs in the EU within the ambit of AML/CFT requirements. Member nations have implemented the directive domestically through new legislations or amendments to existing ones.<p>The proposed Markets in Crypto Assets (MiCA) regulation is likely to be formally adopted into law by European Parliament in 2023. The regulation will provide a holistic framework for digital assets across EU member nations. Currently, member nations have their own regulatory frameworks (see France, Germany and Italy above). The approval of MiCA is expected to harmonise regulation of digital assets across the EU.<p>Source:<a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\"> </a><br />1. M<a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\">arkets in Cryptoassets Regulation (MiCA)</a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">AMLD5</a></p>\n"
+          "<p>Digital assets are not specifically regulated at the moment, though regulations in terms of money laundering and privacy do apply. Anti Money Laundering Directive 5 (AMLD5) was passed in 2018 and brings DASPs in the EU within the ambit of AML/CFT requirements. Member nations have implemented the directive domestically through new legislations or amendments to existing ones.<p>The proposed Markets in Crypto Assets (MiCA) regulation is likely to be formally adopted into law by European Parliament in 2023. The regulation will provide a holistic framework for digital assets across EU member nations. Currently, member nations have their own regulatory frameworks (see France, Germany and Italy above). The approval of MiCA is expected to harmonise regulation of digital assets across the EU.<p>Source:<a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\"> </a><br />1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\">Markets in Cryptoassets Regulation (MiCA)</a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">AMLD5</a></p>\n"
         ],
         "classification": [
           "Proposed",
