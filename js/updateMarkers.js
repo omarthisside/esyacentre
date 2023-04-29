@@ -803,7 +803,7 @@ setTimeout(()=>{
         "lang": "37.6173"
       },
       {
-        "countryName": "Saudia Arabia",
+        "countryName": "Saudi Arabia",
         "legalStatus": [
           "Legal",
           "<p>Holding, trading, and investing in digital assets is legal in Saudi Arabia. However, the Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market has banned financial institutions from dealing in or with digital assets.<p><p>Source: <br /> 1. <a target=\"_blank\"  href=\"https://www.sama.gov.sa/en-US/News/Pages/news12082018.aspx\">Joint-statement by Standing Committee on Dealing in Unauthorised Securities Activities in the Foreign Exchange Market 2018</a><br />2. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/fintech-laws-and-regulations/saudi-arabia\">International Comparative Legal Guide</a><br />3. <a target=\"_blank\"  href=\"https://www.lexology.com/library/detail.aspx?g=2bca5d91-7961-4b6d-9de9-93cd47e1fe0b\">Lexology</a></p>\n"
