@@ -362,7 +362,7 @@ setTimeout(()=>{
         ],
         "consumerAwareness": [
           "Partial",
-          "<p>The Financial Markets Authority(AMF), the French Prudential Supervision and Resolution Authority, and the General Directorate for Competition Policy, Consumer Affairs and Fraud Control are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. </p>\n<p>The AMF also exercises its authority to take legal action and block access to fraudulent sites. </p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/french-regulator-warns-against-unauthorized-crypto-platforms\">AMF&#39;s warning against unauthorized crypto platforms</a></p>\n"
+          "<p>The Financial Markets Authority (AMF), the French Prudential Supervision and Resolution Authority, and the General Directorate for Competition Policy, Consumer Affairs and Fraud Control are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. </p>\n<p>The AMF also exercises its authority to take legal action and block access to fraudulent sites. </p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/french-regulator-warns-against-unauthorized-crypto-platforms\">AMF&#39;s warning against unauthorized crypto platforms</a></p>\n"
         ],
         "investorProtection": [
           "Yes",
