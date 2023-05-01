@@ -350,7 +350,7 @@ setTimeout(()=>{
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
-          "<p>EU Directives 2011/83/EU and 2019/2161 on consumer protection have been transposed into French law. While these directives include provisions on consumer grievance redressal, it is an open question whether they extend to digital asset service providers. <p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/consumer-protection-laws-and-regulations/france\" target=\"_blank\">ICLG</a><br/> <a target=\"_blank\"  href=\"https://www.mondaq.com/france/dodd-frank-consumer-protection-act/1211594/france39s-implementation-of-the-omnibus-directive-three-key-things-e-commerce-businesses-should-know\" target=\"_blank\">Mondaq</a></p>\n"
+          "<p>EU Directives 2011/83/EU and 2019/2161 on consumer protection have been transposed into French law. While these directives include provisions on consumer grievance redressal, it is an open question whether they extend to digital asset service providers. <p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/consumer-protection-laws-and-regulations/france\" target=\"_blank\">ICLG</a><br/>2. <a target=\"_blank\"  href=\"https://www.mondaq.com/france/dodd-frank-consumer-protection-act/1211594/france39s-implementation-of-the-omnibus-directive-three-key-things-e-commerce-businesses-should-know\" target=\"_blank\">Mondaq</a></p>\n"
         ],
         "dataProtection": [
           "Yes",
