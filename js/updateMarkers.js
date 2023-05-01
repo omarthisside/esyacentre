@@ -114,7 +114,7 @@ setTimeout(()=>{
         ],
         "advertisingRegulations": [
           "Yes",
-          "<p>Misleading or deceptive conduct by entities issuing all kinds of digital assets, including ones that are not classified as financial products.<p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets/#part-b\" target=\"_blank\">ASIC on Misleading or Deceptive conduct in relation to a crypto-asset</a></p>\n"
+          "<p>The Australian Securities and Investment Commission has clarified that misleading or deceptive conduct by entities issuing all kinds of digital assets, including ones that are not classified as financial products, is punishable under existing laws.</p><p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://asic.gov.au/regulatory-resources/digital-transformation/crypto-assets/#part-b\" target=\"_blank\">ASIC on Misleading or Deceptive conduct in relation to a crypto-asset</a></p>\n"
         ],
         "consumerAwareness": [
           "Under Consultation",
@@ -171,7 +171,7 @@ setTimeout(()=>{
         ],
         "dataProtection": [
           "Partial - General Legislation",
-          "<p>digital asset service providers will likely be data controllers under the Brazilian General Data Protection Law. However, there are no specific requirements for such entities<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://iapp.org/resources/article/brazilian-data-protection-law-lgpd-english-translation/\" target=\"_blank\">Brazil&#39;s General Data Protection Law (LGPD)</a></p>\n"
+          "<p>Digital asset service providers will likely be data controllers under the Brazilian General Data Protection Law. However, there are no specific requirements for such entities<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://iapp.org/resources/article/brazilian-data-protection-law-lgpd-english-translation/\" target=\"_blank\">Brazil&#39;s General Data Protection Law (LGPD)</a></p>\n"
         ],
         "advertisingRegulations": [
           "No",
@@ -326,15 +326,15 @@ setTimeout(()=>{
         ],
         "licensing": [
           "Yes",
-          "<p><strong>Registration and Optional License</strong></p>\n<p>French regulation of digital assets relies on two modes of authorization:</p>\n<p><strong>Optional visa for Initial Coin Offerings</strong><br />\nThe French Financial Markets Authority introduced an optional visa regime for public offerings of utility tokens that are not financial instruments. This optional visa allows initial coin offerings (ICOs) to market directly to French citizens, whereas unregistered ICOs are subject to marketing restrictions.</p>\n<p><strong>Mandatory Registration for certain digital asset service providers</strong><br />\nRegistration with the Financial Markets Authority is mandatory for: </p>\n<p>- the purchase and sale of digital assets in legal tender or against other digital assets<br />\n- operation of a trading platform and the custody of digital assets for third parties</p>\n<p><strong>Optional Registration for other digital asset service providers:</strong><br />\nProviders of other services such as portfolio management and investment advice currently do not need to register with the Financial Markets Authority.. Entities providing such services can also choose to obtain an optional license, which provides more avenues to reach consumers.</p>\n<p>A proposal to extend registration requirements to all digital asset service providers, even those not providing conversion to fiat currency, is before the French Parliament.</p>\n<p><strong>Source:</strong><br />\n1. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/amf-grants-its-first-optional-approval-inital-coin-offering-ico\">AMF&#39;s first Optional Approval to an Initial Coin Offering (ICO)</a><br />2. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/digital-assets-amf-describes-its-requirements-digital asset service provider-registration-or-license\">AMF&#39;s Requirements for digital asset service provider Registration or License</a> <br />\n3. <a target=\"_blank\"  href=\"https://www.senat.fr/amendements/2022-2023/187/Amdt_62.html\">Proposal for Amendment to Article 5 of the Monetary and Financial Code</a></p>\n"
+          "<p><strong>Registration and Optional License</strong></p>\n<p>French regulation of digital assets relies on two modes of authorization:</p>\n<p><strong>Optional visa for Initial Coin Offerings</strong><br />\nThe French Financial Markets Authority introduced an optional visa regime for public offerings of utility tokens that are not financial instruments. This optional visa allows initial coin offerings (ICOs) to market directly to French citizens, whereas unregistered ICOs are subject to marketing restrictions.</p>\n<p><strong>Mandatory Registration for certain digital asset service providers</strong><br />\nRegistration with the Financial Markets Authority is mandatory for: </p>\n<p>- the purchase and sale of digital assets in legal tender or against other digital assets<br />\n- operation of a trading platform and the custody of digital assets for third parties</p>\n<p><strong>Optional Registration for other digital asset service providers:</strong><br />\nProviders of other services such as portfolio management and investment advice currently do not need to register with the  Entities providing such services can also choose to obtain an optional license, which provides more avenues to reach consumers.</p>\n<p>A proposal to extend registration requirements to all digital asset service providers, even those not providing conversion to fiat currency, is before the French Parliament.</p>\n<p><strong>Source:</strong><br />\n1. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/amf-grants-its-first-optional-approval-inital-coin-offering-ico\">AMF&#39;s first Optional Approval to an Initial Coin Offering (ICO)</a><br />2. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/digital-assets-amf-describes-its-requirements-digital asset service provider-registration-or-license\">AMF&#39;s Requirements for digital asset service provider Registration or License</a> <br />\n3. <a target=\"_blank\"  href=\"https://www.senat.fr/amendements/2022-2023/187/Amdt_62.html\">Proposal for Amendment to Article 5 of the Monetary and Financial Code</a></p>\n"
         ],
         "corporateGovernance": [
           "Partial",
-          "<p>digital asset service providers seeking an optional license from the Financial Markets Authority must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE<p>Source<a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\" target=\"_blank\">:<br />\n1. </a><a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\" target=\"_blank\">PACTE</a><br />2. <a target=\"_blank\"  href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\" target=\"_blank\">AMF on Digital Assets Service Providers Scheme </a></p>\n"
+          "<p>Digital asset service providers seeking an optional license from the Financial Markets Authority must fulfil requirements related to commercial transaprency and prevention of conflicts of interests as per the PACTE<p>Source<a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\" target=\"_blank\">:<br />\n1. </a><a target=\"_blank\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038496102/\" target=\"_blank\">PACTE</a><br />2. <a target=\"_blank\"  href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\" target=\"_blank\">AMF on Digital Assets Service Providers Scheme </a></p>\n"
         ],
         "riskManagement": [
           "Partial",
-          "<p>digital asset service providers seeking an optional license must fulfil minimum equity and insurance requirements that are similar to those applicable to traditional financial players<p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\" target=\"_blank\">AMF on Digital Assets Service Providers Scheme</a></p>\n"
+          "<p>Digital asset service providers seeking an optional license must fulfil minimum equity and insurance requirements that are similar to those applicable to traditional financial players<p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.amf-france.org/sites/institutionnel/files/private/2022-06/doc-2020-07_eng.pdf\" target=\"_blank\">AMF on Digital Assets Service Providers Scheme</a></p>\n"
         ],
         "taxation": [
           "Yes",
@@ -350,7 +350,7 @@ setTimeout(()=>{
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
-          "<p>EU Directives 2011/83/EU and 2019/2161 on consumer protection have been transposed into French law. While these directives include provisions on consumer grievance redressal, it is an open question whether they extend to digital asset service providers. <p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/financial-scams-paris-public-prosecutors-office-amf-acpr-and-dgccrf-are-actively-working-together\" target=\"_blank\">AMF on fraudulent offers for financial investments and services</a></p>\n"
+          "<p>EU Directives 2011/83/EU and 2019/2161 on consumer protection have been transposed into French law. While these directives include provisions on consumer grievance redressal, it is an open question whether they extend to digital asset service providers. <p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://iclg.com/practice-areas/consumer-protection-laws-and-regulations/france\" target=\"_blank\">ICLG</a><br/> <a target=\"_blank\"  href=\"https://www.mondaq.com/france/dodd-frank-consumer-protection-act/1211594/france39s-implementation-of-the-omnibus-directive-three-key-things-e-commerce-businesses-should-know\" target=\"_blank\">Mondaq</a></p>\n"
         ],
         "dataProtection": [
           "Yes",
@@ -362,11 +362,11 @@ setTimeout(()=>{
         ],
         "consumerAwareness": [
           "Partial",
-          "<p>The Financial Markets Authority, the French Prudential Supervision and Resolution Authority, and the General Directorate for Competition Policy, Consumer Affairs and Fraud Control are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. </p>\n<p>The AMF also exercises its authority to take legal action and block access to fraudulent sites. </p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/french-regulator-warns-against-unauthorized-crypto-platforms\">AMF&#39;s warning against unauthorized crypto platforms</a></p>\n"
+          "<p>The Financial Markets Authority(AMF), the French Prudential Supervision and Resolution Authority, and the General Directorate for Competition Policy, Consumer Affairs and Fraud Control are cooperating through a joint working group to detect instances of fraud and inform the public and professionals. The AMF also updates its blacklist of unauthorised actors. </p>\n<p>The AMF also exercises its authority to take legal action and block access to fraudulent sites. </p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/french-regulator-warns-against-unauthorized-crypto-platforms\">AMF&#39;s warning against unauthorized crypto platforms</a></p>\n"
         ],
         "investorProtection": [
           "Yes",
-          "<p>digital asset service providers seeking a license under the PACTE (Action Plan for Business Growth and Transformation) Act will be subject to &quot;core rules&quot; applicable to all services, including subscription to a professional liability insurance</p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news/towards-new-regime-crypto-assets-france\">AMF</a><br />2. <a target=\"_blank\"  href=\"https://thelawreviews.co.uk/title/the-virtual-currency-regulation-review/france\">Virtual Currency Law Reviews</a></p>\n"
+          "<p>Digital asset service providers seeking a license under the PACTE (Action Plan for Business Growth and Transformation) Act will be subject to &quot;core rules&quot; applicable to all services, including subscription to a professional liability insurance</p>\n<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.amf-france.org/en/news-publications/news/towards-new-regime-crypto-assets-france\">AMF</a><br />2. <a target=\"_blank\"  href=\"https://thelawreviews.co.uk/title/the-virtual-currency-regulation-review/france\">Virtual Currency Law Reviews</a></p>\n"
         ],
         "restrictions": [
           "Yes",
@@ -407,7 +407,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>digital asset service providers must capture and provide relevant AML information to Federal Financial Supervisory Authority (BaFIN) as Germany has incorporated EU AML Directive 5 into local legislation. AMLD5 is a recent iteration of the EU Anti-Money Laundering provisions that bring digital assets within the scope of reporting and KYC requirements.<p>\nThey must also implement robust KYC mechanisms</p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://dip.bundestag.de/vorgang/.../251728\" target=\"_blank\">Law in Germany to implement the amendment directive to the Fourth EU Money Laundering Directive</a>\n"
+          "<p>Digital asset service providers must capture and provide relevant AML information to Federal Financial Supervisory Authority (BaFIN) as Germany has incorporated EU AML Directive 5 into local legislation. AMLD5 is a recent iteration of the EU Anti-Money Laundering provisions that bring digital assets within the scope of reporting and KYC requirements.<p>\nThey must also implement robust KYC mechanisms</p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://dip.bundestag.de/vorgang/.../251728\" target=\"_blank\">Law in Germany to implement the amendment directive to the Fourth EU Money Laundering Directive</a>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -521,7 +521,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p>Since digital assets are treated as commodities, value added tax and capital gains at the rate of 0.1%.<p><p>Source: <br />1. <a target=\"_blank\"  href=\"http://www.reuters.com/business/finance/indonesia-impose-vat-income-tax-crypto-assets-may-2022-04-01/\">Reuters</a></p>\n"
+          "<p>Since digital assets are treated as commodities, value-added tax and capital gains at the rate of 0.1% are applicable</p><p>Source: <br />1. <a target=\"_blank\"  href=\"http://www.reuters.com/business/finance/indonesia-impose-vat-income-tax-crypto-assets-may-2022-04-01/\">Reuters</a></p>\n"
         ],
         "capitalControls": [
           "No",
@@ -590,7 +590,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>digital asset service providers must comply with AML/CFT requirements in Italy. These include customer due diligence, record retention, and transaction reporting to the Italian Financial Intelligence Watchdog (OAM).<p>The nation has implemented EU Anti Money Laundering Directive 5- which extends AML/CFT obligations to digital asset service providers and digital asset transactions<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://content.next.westlaw.com/Glossary/UKPracticalLaw/If252ef1bd7eb11ec9f24ec7b211d8087?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\">Legislative Decree No. 125/2019</a></p>\n"
+          "<p>Digital asset service providers must comply with AML/CFT requirements in Italy. These include customer due diligence, record retention, and transaction reporting to the Italian Financial Intelligence Watchdog (OAM).<p>The nation has implemented EU Anti Money Laundering Directive 5- which extends AML/CFT obligations to digital asset service providers and digital asset transactions<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://content.next.westlaw.com/Glossary/UKPracticalLaw/If252ef1bd7eb11ec9f24ec7b211d8087?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\">Legislative Decree No. 125/2019</a></p>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -667,7 +667,7 @@ setTimeout(()=>{
         ],
         "consumerAwareness": [
           "Yes",
-          "<p>Digital asset exchanges are required to provide accurate information to users about their offerings, fees etc.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
+          "<p>\"Crypto-asset exchange service providers\" are required to provide accurate information to users about their offerings, fees etc. <p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.fsa.go.jp/en/news/2022/20221207/01.pdf\" target=\"_blank\">Financial Services Agency Japan - Regulating Crypto Assets</a></p>\n"
         ],
         "investorProtection": [
           "Partial",
@@ -716,7 +716,7 @@ setTimeout(()=>{
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
-          "<p>digital asset service providers may be subject to the Federal Consumer Protection Law, which includes provisions for handling consumer complaints. However, there are no specific requirements for such institutions at the moment. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.global-regulation.com/translation/mexico/560241/law-protection-of-federal-consumer.html\" target=\"_blank\">Federal Consumer Protection Law</a></p>\n"
+          "<p>Digital asset service providers may be subject to the Federal Consumer Protection Law, which includes provisions for handling consumer complaints. However, there are no specific requirements for such institutions at the moment. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.global-regulation.com/translation/mexico/560241/law-protection-of-federal-consumer.html\" target=\"_blank\">Federal Consumer Protection Law</a></p>\n"
         ],
         "dataProtection": [
           "Partial - General Legislation",
@@ -842,7 +842,7 @@ setTimeout(()=>{
         ],
         "dataProtection": [
           "Partial - General Legislation",
-          "<p>digital asset service providers are not subject to any data protection or information security regulations beyond the nation&#39;s Personal Data Protection Law<p>Source:<br />\n1. <a target=\"_blank\"  href=\"http://www.my.gov.sa/wps/portal/snp/content/dataprotection/?lang=en\">The Personal data protection law in Saudi Arabia (Royal Decree No. (M/19) dated 1443/2/9 AH)</a></p>\n"
+          "<p>Digital asset service providers are not subject to any data protection or information security regulations beyond the nation&#39;s Personal Data Protection Law<p>Source:<br />\n1. <a target=\"_blank\"  href=\"http://www.my.gov.sa/wps/portal/snp/content/dataprotection/?lang=en\">The Personal data protection law in Saudi Arabia (Royal Decree No. (M/19) dated 1443/2/9 AH)</a></p>\n"
         ],
         "advertisingRegulations": [
           "Yes",
@@ -948,7 +948,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p>digital asset service providers in South Korea are subject to a 24.2% corporation tax.<p>The levy of income tax or capital gains is less clear. A proposal to tax digital asset gains exceeding 2.0 million Korean won was introduced in 2021. However, its implementation has been pushed back to 2025 in the face of public opposition.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.coindesk.com/policy/2022/07/21/south-korea-postpones-20-crypto-tax-to-2025/\" target=\"_blank\">South Korean Govt&#39;s postponement of 20% Crypto Tax</a><br /></p>\n"
+          "<p>Digital asset service providers in South Korea are subject to a 24.2% corporation tax.<p>The levy of income tax or capital gains is less clear. A proposal to tax digital asset gains exceeding 2.0 million Korean won was introduced in 2021. However, its implementation has been pushed back to 2025 in the face of public opposition.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.coindesk.com/policy/2022/07/21/south-korea-postpones-20-crypto-tax-to-2025/\" target=\"_blank\">South Korean Govt&#39;s postponement of 20% Crypto Tax</a><br /></p>\n"
         ],
         "capitalControls": [
           "No",
@@ -964,7 +964,7 @@ setTimeout(()=>{
         ],
         "dataProtection": [
           "Yes",
-          "<p>digital asset service providers must acquire an Information Security Management Systems (ISMS) certification from the Korea Internet and Security Agency (KISA)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=28979\" target=\"_blank\">Act on Reporting and Using Specified Financial Transaction Information </a><br /></p>\n"
+          "<p>Digital asset service providers must acquire an Information Security Management Systems (ISMS) certification from the Korea Internet and Security Agency (KISA)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=28979\" target=\"_blank\">Act on Reporting and Using Specified Financial Transaction Information </a><br /></p>\n"
         ],
         "advertisingRegulations": [
           "No",
@@ -1017,7 +1017,7 @@ setTimeout(()=>{
         ],
         "amlCft": [
           "Yes",
-          "<p>digital asset service providers are considered &quot;obliged parties&quot; under Tukey&#39;s Regulation on Measures Regarding Prevention of Laundering Proceeds.<p>Resultantly, they must conduct thorough KYC and customer due diligence, report suspicious transactions and provide information and documents when requested by the Financial Crimes Investigation Board (FCIB)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://iclg.com/briefing/16347-overview-of-the-masak-guide-on-basic-principles-of-cypro-asset-service-provider-obligations-turkey\">ICLG</a></p>\n"
+          "<p>Digital asset service providers are considered &quot;obliged parties&quot; under Tukey&#39;s Regulation on Measures Regarding Prevention of Laundering Proceeds.<p>Resultantly, they must conduct thorough KYC and customer due diligence, report suspicious transactions and provide information and documents when requested by the Financial Crimes Investigation Board (FCIB)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://iclg.com/briefing/16347-overview-of-the-masak-guide-on-basic-principles-of-cypro-asset-service-provider-obligations-turkey\">ICLG</a></p>\n"
         ],
         "grievanceRedressal": [
           "Partial - General Legislation",
@@ -1058,7 +1058,7 @@ setTimeout(()=>{
         ],
         "licensing": [
           "Yes",
-          "<p>digital asset service providers that offer security tokens or e-money tokens fall within the Financial Conduct Authority's (FCA) jurisdiction and would need the relevant permissions and authorisation.<p>However, there is no license for digital asset service providers dealing only with unregulated tokens. The HMT&#39;s proposed framework (contained in its Consultation Paper) would extend authorisation and license requirements to digital asset service providers even if they offer only unregulated tokens.<p>Her Majesty's Treasury (HMT) published a Consultation Paper (CP) on the \"Future financial services regulatory regime for cryptoassets\" in February 2023. The CP proposes a holistic regulatory framework for digital assets. The proposed regulatory framework would extend existing financial regulations regarding issuance, promotion, public offers, disclosure, and orderliness of trading venues to digital asset service providers. It would also extend authorisation and license requirements to digital asset service providers even if they offer only unregulated tokens.  </p><p>All digital asset service providers must register with the FCA for AML/CFT purposes (covered later)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fca.org.uk/publication/policy/ps19-22.pdf\" target=\"_blank\">Policy Statement 19/22</a><br />2. <a target=\"_blank\"  href=\"https://www.gov.uk/government/consultations/future-financial-services-regulatory-regime-for-cryptoassets\" target=\"_blank\">Consultation and call for evidence: Future financial services regulatory regime for cryptoassets </a><br /><p></p>\n"
+          "<p>Digital asset service providers that offer security tokens or e-money tokens fall within the Financial Conduct Authority's (FCA) jurisdiction and would need the relevant permissions and authorisation.<p>However, there is no license for digital asset service providers dealing only with unregulated tokens. The HMT&#39;s proposed framework (contained in its Consultation Paper) would extend authorisation and license requirements to digital asset service providers even if they offer only unregulated tokens.<p>Her Majesty's Treasury (HMT) published a Consultation Paper (CP) on the \"Future financial services regulatory regime for cryptoassets\" in February 2023. The CP proposes a holistic regulatory framework for digital assets. The proposed regulatory framework would extend existing financial regulations regarding issuance, promotion, public offers, disclosure, and orderliness of trading venues to digital asset service providers. It would also extend authorisation and license requirements to digital asset service providers even if they offer only unregulated tokens.  </p><p>All digital asset service providers must register with the FCA for AML/CFT purposes (covered later)<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fca.org.uk/publication/policy/ps19-22.pdf\" target=\"_blank\">Policy Statement 19/22</a><br />2. <a target=\"_blank\"  href=\"https://www.gov.uk/government/consultations/future-financial-services-regulatory-regime-for-cryptoassets\" target=\"_blank\">Consultation and call for evidence: Future financial services regulatory regime for cryptoassets </a><br /><p></p>\n"
         ],
         "corporateGovernance": [
           "Partial",
@@ -1066,7 +1066,7 @@ setTimeout(()=>{
         ],
         "riskManagement": [
           "Partial",
-          "<p>digital asset service providers that are under the Financial Conduct Authority's (FCA)  jurisdiction must assess and mitigate against risks posed by digital assets as they would for other regulated assets. This includes putting in place relevant protection for client funds.<p>There are no reserve or risk management requirements for digital asset service providers outside FCA&#39;s jurisdiction.<p>However, the acceptance of the framework proposed by the Her Majety's Treasury would require digital asset service providers, including trading venues and custody services, to adopt prudential requirements including minimum capital and liquidity thresholds to address potential harms from on-going operations.<p>Additional custody and safeguarding rules will be made applicable to &quot;cryptoasset custody services&quot;<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fca.org.uk/firms/client-money-assets\" target=\"_blank\">FCA CASS Sourcebook </a><br />2. <a target=\"_blank\"  href=\"https://www.gov.uk/government/consultations/future-financial-services-regulatory-regime-for-cryptoassets\" target=\"_blank\">Consultation and call for evidence: Future financial services regulatory regime for cryptoassets </a></p>\n"
+          "<p>Digital asset service providers that are under the Financial Conduct Authority's (FCA)  jurisdiction must assess and mitigate against risks posed by digital assets as they would for other regulated assets. This includes putting in place relevant protection for client funds.<p>There are no reserve or risk management requirements for digital asset service providers outside FCA&#39;s jurisdiction.<p>However, the acceptance of the framework proposed by the Her Majety's Treasury would require digital asset service providers, including trading venues and custody services, to adopt prudential requirements including minimum capital and liquidity thresholds to address potential harms from on-going operations.<p>Additional custody and safeguarding rules will be made applicable to &quot;cryptoasset custody services&quot;<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.fca.org.uk/firms/client-money-assets\" target=\"_blank\">FCA CASS Sourcebook </a><br />2. <a target=\"_blank\"  href=\"https://www.gov.uk/government/consultations/future-financial-services-regulatory-regime-for-cryptoassets\" target=\"_blank\">Consultation and call for evidence: Future financial services regulatory regime for cryptoassets </a></p>\n"
         ],
         "taxation": [
           "Yes",
@@ -1172,15 +1172,15 @@ setTimeout(()=>{
         "countryName": "European Union",
         "legalStatus": [
           "Legal",
-          "<p>There is currently no EU-wide law governing digital assets, however, a framework extending the applicability of money laundering regulation has been introduced. Anti Money Laundering Directive 5 (AMLD5) was passed in 2018 and brings digital asset service providers in the EU within the ambit of AML/CFT requirements. Member nations have implemented the directive domestically through new legislations or amendments to existing ones.</p><p>The proposed Markets in Crypto Assets (MiCA) regulation is likely to be formally adopted into law by European Parliament in 2023. The regulation will provide a holistic framework for digital assets across EU member nations. Currently, member nations have their own regulatory frameworks (see France, Germany and Italy above). The approval of MiCA is expected to harmonise the regulation of digital assets across the EU.</p><p>Source:<br />1. <a href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\">Markets in Cryptoassets Regulation</a> (MiCA)<br />2. <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">AMLD5</a></p>"
+          "<p>The Markets in Crypto Assets (MiCA) regulation provides a holistic framework for digital assets across EU.</p><p>A framework extending the applicability of money laundering regulation has been introduced. Anti Money Laundering Directive 5 (AMLD5) was passed in 2018 and brings digital asset service providers in the EU within the ambit of AML/CFT requirements. Member nations have implemented the directive domestically through new legislations or amendments to existing.</p><p>Source:<br />1. <a href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\">Markets in Cryptoassets Regulation (MiCA)</a><br />2. <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">AMLD5</a></p>"
         ],
         "classification": [
           "Proposed",
-          "<p>The proposed Markets in Crypto Assets (MiCA) regulation defines &quot;crypto-assets&quot; as &ldquo;a digital representation of value or rights which may be transferred and stored electronically, using distributed ledger technology or similar technology&rdquo;<p>It classifies them into the following:<p>1. Asset Referenced Tokens (ARTs) - maintain stable value by referencing value to other currencies, commodities or cryptoassets [primarily stablecoins]<br />\n2. E-Money Tokens (EMTs) - crypto-assets that are issued to be a means of exchange and maintain value in reference to fiat currency<br />\n3. Utility Tokens - provide access to a DLT-based good or service<p>Security tokens are not considered crypto-assets and are subject to a different regulatory regime under Markets in Financial Instruments Directive 2014. NFTs are also excluded from the scope of \"crypto-assets\".<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 3, MiCA<br />\n2. Art. 4, MiCA</a><br />3. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 13, MiCA</a></p>\n"
+          "<p>The Markets in Crypto Assets (MiCA) regulation defines \"crypto-assets\" as “a digital representation of value or rights which may be transferred and stored electronically, using distributed ledger technology or similar technology”</p><p>It classifies them into the following:<p>1. Asset Referenced Tokens (ARTs) - maintain stable value by referencing value to other currencies, commodities or cryptoassets [primarily stablecoins]<br />\n2. E-Money Tokens (EMTs) - crypto-assets that are issued to be a means of exchange and maintain value in reference to fiat currency <br />\n3. Utility Tokens - provide access to a DLT-based good or service.<p>Security tokens are not considered crypto-assets and are subject to a different regulatory regime under the Markets in Financial Instruments Directive 2014. NFTs are also excluded from the scope of \"crypto-assets\".</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 3, MiCA<br />\n2.<a href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\"> Art. 4, MiCA</a><br />3. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 13, MiCA</a></p>\n"
         ],
         "licensing": [
           "Proposed",
-          "<p>All digital asset service providers must obtain authorisation as digital asset service providers and must be established as a legal entity in the EU. Issuance of tokens by digital asset service providers must be coupled with a white paper. digital asset service providers include exchanges, providers of custody and storage services as well as provision of advice on digital assets.<p>Issuers of Asset Referenced Tokens and E-Money Tokens are subject to further regulatory obligations, including prior approval of whitepapers and limits on transactions and trading volumes. These tokens are perceived as posing greater risks to the financial system.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 9, MiCA </a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 15, MiCA</a></p>\n"
+          "<p>All digital asset service providers must obtain authorisation from the relevant authorities and must be established as a legal entity in the EU. Issuance of tokens by digital asset service providers must be coupled with a white paper. Digital asset service providers include exchanges, providers of custody and storage services as well as provision of advice on digital assets. <p>Issuers of Asset Referenced Tokens and E-Money Tokens are subject to further regulatory obligations, including prior approval of whitepapers and limits on transactions and trading volumes. These tokens are perceived as posing greater risks to the financial system.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 9, MiCA </a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 15, MiCA</a></p>\n"
         ],
         "corporateGovernance": [
           "Proposed",
@@ -1188,39 +1188,39 @@ setTimeout(()=>{
         ],
         "riskManagement": [
           "Proposed",
-          "<p>Management bodies of Asset Referenced Token and E-Money Token issuers are required to ensure prudential management of reserves, including matching value of issued tokens to reserves.<p>Segregation requirements are also proposed.<p>The whitepaper that issuers of Asset Reference Tokens and E-money Tokens have to file before issuance must disclose details on the issuer, crypto-asset and associated risks and obligations.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 60, MiCA</a></p>\n"
+          "<p>Management bodies of Asset Referenced Token and E-Money Token issuers are required to ensure prudential management of reserves, including matching the value of issued tokens to reserves.<p>Segregation requirements are also included under the Markets in Crypto Assets Regulation.<p>The whitepaper that issuers of Asset Reference Tokens and E-money Tokens have to file before issuance must disclose details on the issuer, crypto-asset and associated risks and obligations. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 60, MiCA</a></p>\n"
         ],
         "taxation": [
           "No",
-          "<p>There is currently no specific tax regulation applicable to crypto-assets.<p>The European Court of Justice has ruled that value added tax  is not applicable to Bitcoin profits as it considered the cryptocurrency to be a means of payment.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://curia.europa.eu/jcms/upload/docs/application/pdf/2015-10/cp150128en.pdf\" target=\"_blank\">Skatteverkt vs Hedqvist</a></p>"
+          "<p>There is currently no specific tax regulation applicable to crypto-assets.<p>The European Court of Justice has ruled that value added tax is not applicable to Bitcoin profits as it considered the cryptocurrency to be a means of payment.</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://curia.europa.eu/jcms/upload/docs/application/pdf/2015-10/cp150128en.pdf\" target=\"_blank\">Skatteverkt vs Hedqvist</a></p>"
         ],
         "capitalControls": [
           "No",
-          ""
+          "<p>The EU does not have a capital controls regime</p>"
         ],
         "amlCft": [
           "Yes",
-          "<p>AML Directive 5 brings providers of exchanges between digital assets and fiat currencies as well as custodian wallet service providers into the EU's AML framework. .<p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">EU Anti Money Laundering Directive 5</a></p>\n"
+          "<p>AML Directive 5 brings providers of exchanges between digital assets and fiat currencies as well as custodian wallet service providers into the EU's AML framework.<p>Source: <br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0843\">EU Anti Money Laundering Directive 5</a></p>\n"
         ],
         "grievanceRedressal": [
           "Proposed",
-          "<p>Competent authorities in each EU jurisdiction are required to set up procedures to allow clients and consumer associations to file complaints before them regarding violations of the proposed Markets in Crypto Assets Regulation by digital asset service providers. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 91, MiCA </a></p>\n"
+          "<p>Competent authorities in each EU jurisdiction are required to set up procedures to allow clients and consumer associations to file complaints before them regarding violations of the  Markets in Crypto Assets Regulation by digital asset service providers.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 91, MiCA </a></p>\n"
         ],
         "dataProtection": [
           "Proposed",
-          "<p>\"Crypto Asset Service Providers\" will be required to comply with the Digital Operational Resilience Act once Markets in Crypto Assets Regulation comes into force.<p>The Act requires regulated entities to create an ICT Risk Management Framework. Key aspects of this include an internal governance and control framework, implementation of measures for protection from and prevention of cyberattacks, outlining KPIs for information security risk management as well as detection, response and recovery plans.<p>The General Data Protection Regulation is applicable to digital asset service providers, who qualify as data processors and controllers.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.digital-operational-resilience-act.com/\">Digital Operational Resilience Act</a></p>\n"
+          "<p>\"Crypto Asset Service Providers\" are required to comply with the Digital Operational Resilience Act under the Markets in Crypto Assets Regulation. <p>The Act requires regulated entities to create an ICT Risk Management Framework. Key aspects of this include an internal governance and control framework, implementation of measures for protection from and prevention of cyberattacks, outlining KPIs for information security risk management as well as detection, response and recovery plans. <p>The General Data Protection Regulation is applicable to digital asset service providers, who qualify as data processors and controllers.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.digital-operational-resilience-act.com/\">Digital Operational Resilience Act</a></p>\n"
         ],
         "advertisingRegulations": [
           "Proposed",
-          "<p>The Markets in Crypto Assets Regulation requires all marketing communications relating to an offer of utility tokens to be fair, clear and not misleading. They should also state that a whitepaper has been published and indicate the website.<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 5, MiCA</a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&amp;format=PDF\" target=\"_blank\">Art. 15, MiCA</a></p>\n"
+          "<p>The Markets in Crypto Assets Regulation requires all marketing communications relating to an offer of utility tokens to be fair, clear and not misleading. They should also state that a whitepaper has been published and indicate the website. <p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 5, MiCA</a><br />2. <a target=\"_blank\"  href=\"https://eur-lex.europa.eu/resource.html?uri=cellar:f69f89bb-fe54-11ea-b44f-01aa75ed71a1.0001.02/DOC_1&format=PDF\" target=\"_blank\">Art. 15, MiCA</a></p>\n"
         ],
         "consumerAwareness": [
           "No",
-          "<p>The proposed Markets in Crypto Assets regulation does not contain specific provisions for fostering consumer awareness about cryptoassets</p>\n"
+          "<p>The Markets in Crypto Assets regulation does not contain specific provisions for fostering consumer awareness about cryptoassets  </p>\n"
         ],
         "investorProtection": [
           "No",
-          "<p>While official documents do not explicitly discuss this subject, statements from regulators indicate that consumers could lose all their money in crypto - indicating that deposit insurance do not apply<p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.reuters.com/technology/be-ready-lose-all-your-money-crypto-eu-regulators-warn-2022-03-17/\">Reuters</a></p>\n"
+          "<p>While official documents do not explicitly discuss this subject, statements from regulators indicate that consumers could lose all their money in crypto - indicating that deposit insurance do not apply</p><p>Source:<br />\n1. <a target=\"_blank\"  href=\"https://www.reuters.com/technology/be-ready-lose-all-your-money-crypto-eu-regulators-warn-2022-03-17/\">Reuters</a></p>\n"
         ],
         "restrictions": [
           "No",
