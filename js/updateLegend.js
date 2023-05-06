@@ -54,7 +54,7 @@
           case "investorProtection":
           selectedKey.innerHTML = "Investor Protection and Insurance";
           break;
-          case "advertisingRegulations":
+          case "restrictions":
           selectedKey.innerHTML = "Restrictions";
           break;
       }
