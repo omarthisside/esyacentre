@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Panel</title>
+    <!-- Include the CKEditor script -->
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <style>
+      .wrapper {
+        width: 100%;
+        display: flex;
+      }
+      .sidebar {
+        width: 30%;
+      }
+      .content {
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <h3>Country List</h3>
+        <ul id="countryList">
+        </ul>
+      </div>
+      <div class="content">
+        <form>
+          <label for="countryName">Country Name:</label>
+          <input type="text" id="countryName" name="countryName" /><br /><br />
+
+          <label for="legalStatus">Legal Status:</label>
+          <input type="text" id="legalStatus" name="legalStatus" /><br /><br />
+
+          <label for="legalStatusDescription">Legal Status Description:</label>
+          <textarea id="legalStatusDescription"></textarea><br /><br />
+
+          <label for="classification">Classification:</label>
+          <input
+            type="text"
+            id="classification"
+            name="classification"
+          /><br /><br />
+
+          <label for="classificationDescription"
+            >Classification Description:</label
+          >
+          <textarea id="classificationDescription"></textarea><br /><br />
+
+          <label for="licensing">Licensing:</label>
+          <input type="text" id="licensing" name="licensing" /><br /><br />
+
+          <label for="licensingDescription">Licensing Description:</label>
+          <textarea id="licensingDescription"></textarea><br /><br />
+
+          <label for="corporateGovernance">Corporate Governance:</label>
+          <input
+            type="text"
+            id="corporateGovernance"
+            name="corporateGovernance"
+          /><br /><br />
+
+          <label for="corporateGovernanceDescription"
+            >Corporate Governance Description:</label
+          >
+          <textarea id="corporateGovernanceDescription"></textarea><br /><br />
+
+          <label for="riskManagement">Risk Management:</label>
+          <input
+            type="text"
+            id="riskManagement"
+            name="riskManagement"
+          /><br /><br />
+
+          <label for="riskManagementDescription"
+            >Risk Management Description:</label
+          >
+          <textarea id="riskManagementDescription"></textarea><br /><br />
+
+          <label for="taxation">Taxation:</label>
+          <input type="text" id="taxation" name="taxation" /><br /><br />
+
+          <label for="taxationDescription">Taxation Description:</label>
+          <textarea id="taxationDescription"></textarea><br /><br />
+
+          <label for="capitalControls">Capital Controls:</label>
+          <input
+            type="text"
+            id="capitalControls"
+            name="capitalControls"
+          /><br /><br />
+
+          <label for="capitalControlsDescription"
+            >Capital Controls Description:</label
+          >
+          <textarea id="capitalControlsDescription"></textarea><br /><br />
+
+          <label for="amlCft">AML/CFT:</label>
+          <input type="text" id="amlCft" name="amlCft" /><br /><br />
+
+          <label for="amlCftDescription">AML/CFT Description:</label>
+          <textarea id="amlCftDescription"></textarea><br /><br />
+
+          <label for="grievanceRedressal">Grievance Redressal:</label>
+          <input
+            type="text"
+            id="grievanceRedressal"
+            name="grievanceRedressal"
+          /><br /><br />
+
+          <label for="grievanceRedressalDescription"
+            >Grievance Redressal Description:</label
+          >
+          <textarea id="grievanceRedressalDescription"></textarea><br /><br />
+
+          <label for="dataProtection">Data Protection:</label>
+          <input type="text" id="dataProtection" /><br /><br />
+
+          <label for="dataProtectionDescription"
+            >Data Protection Description:</label
+          >
+          <textarea id="dataProtectionDescription"></textarea><br /><br />
+
+          <label for="advertisingRegulations">Advertising Regulations:</label>
+          <input
+            type="text"
+            id="advertisingRegulations"
+            name="advertisingRegulations"
+          /><br /><br />
+
+          <label for="advertisingRegulationsDescription"
+            >Advertising Regulations Description:</label
+          >
+          <textarea id="advertisingRegulationsDescription"></textarea
+          ><br /><br />
+
+          <label for="consumerAwareness">Consumer Awareness:</label>
+          <input
+            type="text"
+            id="consumerAwareness"
+            name="consumerAwareness"
+          /><br /><br />
+
+          <label for="consumerAwarenessDescription"
+            >Consumer Awareness Description:</label
+          >
+          <textarea id="consumerAwarenessDescription"></textarea><br /><br />
+
+          <label for="investorProtection">Investor Protection:</label>
+          <input
+            type="text"
+            id="investorProtection"
+            name="investorProtection"
+          /><br /><br />
+
+          <label for="investorProtectionDescription"
+            >Investor Protection Description:</label
+          >
+          <textarea id="investorProtectionDescription"></textarea><br /><br />
+
+          <label for="restrictions">Restrictions:</label>
+          <input
+            type="text"
+            id="restrictions"
+            name="restrictions"
+          /><br /><br />
+
+          <label for="restrictionsDescription">Restrictions Description:</label>
+          <textarea id="restrictionsDescription"></textarea><br /><br />
+
+          <label for="lat">Latitude:</label>
+          <input type="text" id="lat" name="lat" /><br /><br />
+
+          <label for="lang">Longitude:</label>
+          <input type="text" id="lang" name="lang" /><br /><br />
+
+          <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <button onclick="downloadData()">Download JSON Data</button>
+    <br/>
+
+
+    <script>
+       
+      function downloadData() {
+        let jsonData = localStorage.getItem("data");
+        if (jsonData) {
+          let data = JSON.parse(jsonData);
+          let filename = "data.json";
+          let jsonStr = JSON.stringify(data, null, 2);
+          let blob = new Blob([jsonStr], { type: "application/json" });
+          let url = URL.createObjectURL(blob);
+          let link = document.createElement("a");
+          link.href = url;
+          link.download = filename;
+          link.click();
+          URL.revokeObjectURL(url);
+        } else {
+          console.error("No data found in localStorage.");
+        }
+      }
+      createAdminPanel();
+      function createAdminPanel() {
+        CKEDITOR.replace("legalStatusDescription");
+        CKEDITOR.replace("classificationDescription");
+        CKEDITOR.replace("licensingDescription");
+        CKEDITOR.replace("corporateGovernanceDescription");
+        CKEDITOR.replace("riskManagementDescription");
+        CKEDITOR.replace("taxationDescription");
+        CKEDITOR.replace("capitalControlsDescription");
+        CKEDITOR.replace("amlCftDescription");
+        CKEDITOR.replace("grievanceRedressalDescription");
+        CKEDITOR.replace("dataProtectionDescription");
+        CKEDITOR.replace("advertisingRegulationsDescription");
+        CKEDITOR.replace("consumerAwarenessDescription");
+        CKEDITOR.replace("investorProtectionDescription");
+        CKEDITOR.replace("restrictionsDescription");
+      }
+
+      
+      function submitForm() {
+        
+ 
+        let countryName = document.getElementById("countryName").value;
+        let legalStatus = document.getElementById("legalStatus").value;
+        let legalStatusDescription =
+          CKEDITOR.instances.legalStatusDescription.getData();
+        let classification = document.getElementById("classification").value;
+        let classificationDescription =
+          CKEDITOR.instances.classificationDescription.getData();
+        let licensing = document.getElementById("licensing").value;
+        let licensingDescription =
+          CKEDITOR.instances.licensingDescription.getData();
+        let corporateGovernance = document.getElementById(
+          "corporateGovernance"
+        ).value;
+        let corporateGovernanceDescription =
+          CKEDITOR.instances.corporateGovernanceDescription.getData();
+        let riskManagement = document.getElementById("riskManagement").value;
+        let riskManagementDescription =
+          CKEDITOR.instances.riskManagementDescription.getData();
+        let taxation = document.getElementById("taxation").value;
+        let taxationDescription =
+          CKEDITOR.instances.taxationDescription.getData();
+        let capitalControls = document.getElementById("capitalControls").value;
+        let capitalControlsDescription =
+          CKEDITOR.instances.capitalControlsDescription.getData();
+        let amlCft = document.getElementById("amlCft").value;
+        let amlCftDescription = CKEDITOR.instances.amlCftDescription.getData();
+        let grievanceRedressal =
+          document.getElementById("grievanceRedressal").value;
+        let grievanceRedressalDescription =
+          CKEDITOR.instances.grievanceRedressalDescription.getData();
+        let dataProtection = document.getElementById("dataProtection").value;
+        let dataProtectionDescription =
+          CKEDITOR.instances.dataProtectionDescription.getData();
+        let advertisingRegulations = document.getElementById(
+          "advertisingRegulations"
+        ).value;
+        let advertisingRegulationsDescription =
+          CKEDITOR.instances.advertisingRegulationsDescription.getData();
+        let consumerAwareness =
+          document.getElementById("consumerAwareness").value;
+        let consumerAwarenessDescription =
+          CKEDITOR.instances.consumerAwarenessDescription.getData();
+        let investorProtection =
+          document.getElementById("investorProtection").value;
+        let investorProtectionDescription =
+          CKEDITOR.instances.investorProtectionDescription.getData();
+        let restrictions = document.getElementById("restrictions").value;
+        let restrictionsDescription =
+          CKEDITOR.instances.restrictionsDescription.getData();
+        let lat = document.getElementById("lat").value;
+        let lang = document.getElementById("lang").value;
+
+        const newData = {
+    countryName: countryName,
+    legalStatus: [legalStatus, legalStatusDescription],
+    classification: [classification, classificationDescription],
+    licensing: [licensing, licensingDescription],
+    corporateGovernance: [corporateGovernance, corporateGovernanceDescription],
+    riskManagement: [riskManagement, riskManagementDescription],
+    taxation: [taxation, taxationDescription],
+    capitalControls: [capitalControls, capitalControlsDescription],
+    amlCft: [amlCft, amlCftDescription],
+    grievanceRedressal: [grievanceRedressal, grievanceRedressalDescription],
+    dataProtection: [dataProtection, dataProtectionDescription],
+    advertisingRegulations: [advertisingRegulations, advertisingRegulationsDescription],
+    consumerAwareness: [consumerAwareness, consumerAwarenessDescription],
+    investorProtection: [investorProtection, investorProtectionDescription],
+    restrictions: [restrictions, restrictionsDescription],
+    lat: lat,
+    lang: lang,
+  };
+  let data = JSON.parse(localStorage.getItem("data"));
+if (!data) {
+  data = [];
+}
+  let dataExists = false;
+       // Load the existing data from localStorage, if any
+let storedData = localStorage.getItem("data");
+let dataArray = [];
+
+if (storedData) {
+dataArray = JSON.parse(storedData);
+}
+
+
+  dataArray.push({
+    countryName: countryName,
+    legalStatus: [legalStatus, legalStatusDescription],
+    classification: [classification, classificationDescription],
+    licensing: [licensing, licensingDescription],
+    corporateGovernance: [
+      corporateGovernance,
+      corporateGovernanceDescription,
+    ],
+    riskManagement: [riskManagement, riskManagementDescription],
+    taxation: [taxation, taxationDescription],
+    capitalControls: [capitalControls, capitalControlsDescription],
+    amlCft: [amlCft, amlCftDescription],
+    grievanceRedressal: [
+      grievanceRedressal,
+      grievanceRedressalDescription,
+    ],
+    dataProtection: [dataProtection, dataProtectionDescription],
+    advertisingRegulations: [
+      advertisingRegulations,
+      advertisingRegulationsDescription,
+    ],
+    consumerAwareness: [consumerAwareness, consumerAwarenessDescription],
+    investorProtection: [
+      investorProtection,
+      investorProtectionDescription,
+    ],
+    restrictions: [restrictions, restrictionsDescription],
+    lat: lat,
+    lang: lang,
+  });
+
+
+// Save the updated data back to localStorage
+localStorage.setItem("data", JSON.stringify(dataArray));
+
+console.log("Data saved successfully.");
+alert("Data saved successfully.");
+
+
+// Add the new data to the array
+dataArray.push(data);
+
+
+
+      // Listing Countries Data
+      let jsonData = localStorage.getItem("data");
+let countryData = [];
+
+if (jsonData) {
+  countryData = JSON.parse(jsonData);
+} else {
+  console.error("No data found in localStorage.");
+}
+
+// Add the country names to the sidebar
+let countryList = document.getElementById("countryList");
+
+if (Array.isArray(countryData)) {
+  countryData.forEach(function (country) {
+    let countryName = country.countryName;
+
+    console.log("Adding country:", countryName);
+
+    let listItem = document.createElement("li");
+    let link = document.createElement("a");
+    link.classList.add("country");
+    link.href = "#";
+    link.textContent = countryName;
+    link.addEventListener("click", function () {
+      // Handle click events on the country links
+      console.log("Clicked on country:", countryName);
+    });
+    listItem.appendChild(link);
+    countryList.appendChild(listItem);
+  });
+} else {
+  console.error("Invalid data format in localStorage.");
+}
+
+
+      }
+
+
+
+    </script>
+  </body>
+</html>

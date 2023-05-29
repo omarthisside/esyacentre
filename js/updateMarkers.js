@@ -582,7 +582,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Capital Gains and Value Added Tax</strong></p><p>The Italian Parliament has introduced a 26% capital tax on digital asset gains as part of the 2023 budget law, which was approved on Dec. 29.<p>The document also offers incentives for taxpayers to declare their digital asset holdings, proposing a 3.5% aliquot for undeclared cryptocurrencies held before Dec. 31, 2021, and a 0.5% fine for each additional year.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/italy-approves-26-capital-gains-tax-on-cryptocurrencies\" target=\"_blank\"> Italian Senate's Approval of 26% capital gains tax on cryptocurrencies </a><br /></p>\n"
+          "<p><strong>Capital Gains and Value Added Tax</strong></p><p>The Italian Parliament has introduced a 26% capital tax on digital asset gains as part of the 2023 budget law, which was approved on Dec. 29, 2022 <p>The document also offers incentives for taxpayers to declare their digital asset holdings, proposing a 14% \"substitue value tax\" for digital asset holdings declared before Jan 1 each year.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/italy-approves-26-capital-gains-tax-on-cryptocurrencies\" target=\"_blank\">Cointelegraph</a><br /></p>\n"
         ],
         "capitalControls": [
           "No",
