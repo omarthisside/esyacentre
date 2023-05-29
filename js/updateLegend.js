@@ -43,7 +43,7 @@
           selectedKey.innerHTML = "Grievance Redressal";
           break;
           case "dataProtection":
-          selectedKey.innerHTML = "Data Protection";
+          selectedKey.innerHTML = "Data Protection/Information Security";
           break;
           case "advertisingRegulations":
           selectedKey.innerHTML = "Advertising Regulations";

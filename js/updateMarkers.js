@@ -240,7 +240,7 @@ setTimeout(()=>{
         ],
         "consumerAwareness": [
           "Yes",
-          "<p>Provincial Securities Commissions, such as in Ontaria, regularly undertake surveys to understand consumer knowledge and awareness of digital assets.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.osc.ca/sites/default/files/2022-10/inv_research_20220928_crypto-asset-survey_EN.pdf\" target=\"_blank\">Ontario Securities Commission&#39;s Crypto Asset Survey 2022</a></p>\n"
+          "<p>Provincial Securities Commissions, such as in Ontario, regularly undertake surveys to understand consumer knowledge and awareness of digital assets.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://www.osc.ca/sites/default/files/2022-10/inv_research_20220928_crypto-asset-survey_EN.pdf\" target=\"_blank\">Ontario Securities Commission&#39;s Crypto Asset Survey 2022</a></p>\n"
         ],
         "investorProtection": [
           "No",
@@ -582,7 +582,7 @@ setTimeout(()=>{
         ],
         "taxation": [
           "Yes",
-          "<p><strong>Capital Gains and Value Added Tax</strong></p><p>The Italian Parliament has introduced a 26% capital tax on digital asset gains as part of the 2023 budget law, which was approved on Dec. 29, 2022.<p>The document also offers incentives for taxpayers to declare their digital asset holdings, proposing a 3.5% aliquot for undeclared digital assets held before Dec. 31, 2021, and a 0.5% fine for each additional year.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/italy-approves-26-capital-gains-tax-on-cryptocurrencies\" target=\"_blank\">Cointelegraph </a><br /></p>\n"
+          "<p><strong>Capital Gains and Value Added Tax</strong></p><p>The Italian Parliament has introduced a 26% capital tax on digital asset gains as part of the 2023 budget law, which was approved on Dec. 29.<p>The document also offers incentives for taxpayers to declare their digital asset holdings, proposing a 3.5% aliquot for undeclared cryptocurrencies held before Dec. 31, 2021, and a 0.5% fine for each additional year.<p>Source:<br />1. <a target=\"_blank\"  href=\"https://cointelegraph.com/news/italy-approves-26-capital-gains-tax-on-cryptocurrencies\" target=\"_blank\"> Italian Senate's Approval of 26% capital gains tax on cryptocurrencies </a><br /></p>\n"
         ],
         "capitalControls": [
           "No",
